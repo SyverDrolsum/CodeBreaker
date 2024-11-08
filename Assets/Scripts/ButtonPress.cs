@@ -3,40 +3,39 @@ using UnityEngine;
 public class ButtonPress : MonoBehaviour
 {
     private Vector3 originalScale;
-    public Vector3 pressedScale = new Vector3(0.9f, 0.9f, 1f);  // Scale when pressed
+    public Vector3 pressedScale = new Vector3(0.6f, 0.25f, 1f);  // Scale when pressed
+    public GameObject shutter;  // Reference to the shutter to open
+    private ShutterController shutterController;
 
     void Start()
     {
+        //store original scale
         originalScale = transform.localScale;
+
+        // Get the ShutterController component from the shutter object
+        if (shutter != null)
+        {
+            shutterController = shutter.GetComponent<ShutterController>();
+        }
     }
 
-    void Update()
+private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if(other.CompareTag("Player"))
+        {
+            transform.localScale = pressedScale;
+
+            shutterController.OpenShutter();
+        }
     }
 
-    private void OnMouseDown()
+private void OnTriggerExit2D(Collider2D other)
     {
-        // When the mouse is clicked, change the scale to show press effect
-        transform.localScale = pressedScale;
-    }
+        if (other.CompareTag("Player"))
+        {
+            transform.localScale = originalScale;
 
-    private void OnMouseUp()
-    {
-        // Reset scale when mouse is released
-        transform.localScale = originalScale;
-    }
-
-    public void PressButton() // Can be called from another script for keyboard input
-    {
-        // Change scale for visual effect
-        transform.localScale = pressedScale;
-        // Optionally add sound or animation here
-    }
-
-    public void ReleaseButton()
-    {
-        // Reset the scale to original size
-        transform.localScale = originalScale;
+            shutterController.CloseShutter();
+        }
     }
 }

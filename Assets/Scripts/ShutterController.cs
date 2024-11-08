@@ -5,6 +5,7 @@ public class ShutterController : MonoBehaviour
 
     public Vector3 openPosition; // Position where the shutter should move to when opened
     public float openSpeed = 2f;
+    public float openHeight = 2f;
     public float closeDelay = 2f; //seconds before shutter closes
     private bool isOpening = false;
     private bool isClosing = false;
@@ -15,6 +16,8 @@ public class ShutterController : MonoBehaviour
     {
         // Record the initial (closed) position of the shutter
         closedPosition = transform.position;
+
+        openPosition = closedPosition + new Vector3(0, openHeight, 0);
     }
 
     void Update()
@@ -50,9 +53,10 @@ public class ShutterController : MonoBehaviour
             isClosing = false;
         }
 
-        private void CloseShutter()
+        public void CloseShutter()
         {
             isClosing = true;
+            isOpening = false;
         }
     
 

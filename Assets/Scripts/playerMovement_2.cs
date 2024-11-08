@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class playerMovement : MonoBehaviour
+public class playerMovement_2 : MonoBehaviour
 {
     public float moveSpeed = 5f;
 
@@ -11,7 +11,6 @@ public class playerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-  
     void Update()
     {
         float moveInput = Input.GetAxis("Horizontal");
