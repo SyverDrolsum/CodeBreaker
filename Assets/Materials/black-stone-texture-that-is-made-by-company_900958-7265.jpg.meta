@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      black-stone-texture-that-is-made-by-company_900958-7265_0: 9183047386276401666
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
