@@ -13,13 +13,29 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Transform groundCheck;
     public LayerMask groundLayer;
-    
+
+    private Animator anim;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     // Update is called once per frame
     void Update()
     {
         
         Flip();
-        
+        anim.SetBool("isRunning", horizontal != 0);
+
+        if (IsGrounded())
+        {
+            anim.SetBool("isJumping", false);
+        }
+        else
+        {
+            anim.SetBool("isJumping", true);
+        }
     }
 
     private void FixedUpdate()
@@ -49,6 +65,7 @@ public class PlayerMovement : MonoBehaviour
         if (context.performed && IsGrounded())
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
+            anim.SetTrigger("takeOff");
         }
 
         if (context.canceled && rb.linearVelocity.y > 0f)
