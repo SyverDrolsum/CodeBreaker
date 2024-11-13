@@ -4,6 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags: []
+  serializedVersion: 3
+  tags:
+  - Collectable
   layers:
   - Default
   - TransparentFX
@@ -12,6 +15,7 @@ TagManager:
   - Water
   - UI
   - 
+  - Ground
   - 
   - 
   - 
@@ -41,3 +45,5 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  m_RenderingLayers:
+  - Default
