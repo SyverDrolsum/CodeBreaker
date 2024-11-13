@@ -471,10 +471,14 @@ GameObject:
   m_Component:
   - component: {fileID: 847150691}
   - component: {fileID: 847150690}
+<<<<<<< Updated upstream
   - component: {fileID: 847150692}
   - component: {fileID: 847150693}
+=======
+  - component: {fileID: 847150693}
+  - component: {fileID: 847150692}
+>>>>>>> Stashed changes
   m_Layer: 0
-  m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -525,7 +529,6 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -544,7 +547,11 @@ Transform:
   m_GameObject: {fileID: 847150689}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: -7.89, y: -2.41, z: 0}
+=======
+  m_LocalPosition: {x: -7.89, y: -2.51, z: 0}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
