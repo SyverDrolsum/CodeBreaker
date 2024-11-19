@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: ba31d6d7379c7044a80adc3166eaf90b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2627173616867561155
+    second: All Blip Sprites_0
+  - first:
+      213: -5079291907914917055
+    second: All Blip Sprites_1
+  - first:
+      213: 8381310816048785131
+    second: All Blip Sprites_2
+  - first:
+      213: -5371917509321686161
+    second: All Blip Sprites_3
+  - first:
+      213: -7494709506957366301
+    second: All Blip Sprites_4
+  - first:
+      213: -8602890179313874377
+    second: All Blip Sprites_5
+  - first:
+      213: -2640635621418544324
+    second: All Blip Sprites_6
+  - first:
+      213: -5836340761739887797
+    second: All Blip Sprites_7
+  - first:
+      213: -2157493305966802790
+    second: All Blip Sprites_8
+  - first:
+      213: -221019165029005315
+    second: All Blip Sprites_9
+  - first:
+      213: -8967234970424600432
+    second: All Blip Sprites_10
+  - first:
+      213: -146864671091527109
+    second: All Blip Sprites_11
+  - first:
+      213: -5261977249737629335
+    second: All Blip Sprites_12
+  - first:
+      213: 5742190924137518033
+    second: All Blip Sprites_13
+  - first:
+      213: -2438006766128439896
+    second: All Blip Sprites_14
+  - first:
+      213: 6628852401014821058
+    second: All Blip Sprites_15
+  - first:
+      213: 5080039827915457768
+    second: All Blip Sprites_16
+  - first:
+      213: 4397947545207734239
+    second: All Blip Sprites_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: All Blip Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1065
+        width: 340
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31b45bc3876a8bd0800000000000000
+      internalID: -2627173616867561155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1212
+        width: 690
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b1736cbeab289b0800000000000000
+      internalID: -5079291907914917055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1132
+        width: 908
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be62ab6f7c5605470800000000000000
+      internalID: 8381310816048785131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1064
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f630e26ac7d1375b0800000000000000
+      internalID: -5371917509321686161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 1089
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb201f79617df790800000000000000
+      internalID: -7494709506957366301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 765
+        width: 85
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73acc4446f46c9880800000000000000
+      internalID: -8602890179313874377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 858
+        width: 121
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33da1c94e39a5bd0800000000000000
+      internalID: -2640635621418544324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 796
+        width: 435
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b7c5cdff6210fa0800000000000000
+      internalID: -5836340761739887797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 679
+        width: 64
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98c094e44b0f02e0800000000000000
+      internalID: -2157493305966802790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 788
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df784eb8d38ceecf0800000000000000
+      internalID: -221019165029005315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 584
+        width: 119
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098916a0e4bfd8380800000000000000
+      internalID: -8967234970424600432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 542
+        width: 393
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32f8891c5b36fdf0800000000000000
+      internalID: -146864671091527109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 476
+        width: 367
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961a33d0293b9f6b0800000000000000
+      internalID: -5261977249737629335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 656
+        width: 65
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d350b9d83c50bf40800000000000000
+      internalID: 5742190924137518033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 332
+        width: 68
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad5ae863c57a2ed0800000000000000
+      internalID: -2438006766128439896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 403
+        width: 80
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0dbf6332a6efb50800000000000000
+      internalID: 6628852401014821058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 409
+        width: 49
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4ccbbee4def7640800000000000000
+      internalID: 5080039827915457768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Blip Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 109
+        width: 372
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf78e4bdf5a80d30800000000000000
+      internalID: 4397947545207734239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

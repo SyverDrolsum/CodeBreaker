@@ -7,6 +7,8 @@ public class Health : MonoBehaviour
     public Image healthBar;
     public int maxHealth = 3;
     public int currentHealth;
+
+    public SizeManager sizeManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,23 +22,32 @@ public class Health : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-        /*
-        if (Input.GetKeyUp(KeyCode.W))
+        
+        if (Input.GetKeyUp(KeyCode.Space))
         {
             TakeDamage(1);
         }
 
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.W))
         {
             Heal(1);
         }
-        */
+        
     }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
         healthBar.fillAmount = currentHealth / 3f;
+        if (currentHealth == 2)
+        {
+            Debug.Log("FuCk");
+            sizeManager.ToMediumState();
+        }
+        if (currentHealth == 1)
+        {
+            sizeManager.ToSmallState();
+        }
     }
 
     public void Heal(int amount)
@@ -48,5 +59,14 @@ public class Health : MonoBehaviour
             currentHealth = maxHealth;
         }
         healthBar.fillAmount = currentHealth / 3f;
+
+        if (currentHealth == 2)
+        {
+            sizeManager.ToMediumState();
+        }
+        if (currentHealth == 3)
+        {
+            sizeManager.ToNormalState();
+        }
     }
 }

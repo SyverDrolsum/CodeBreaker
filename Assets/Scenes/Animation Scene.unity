@@ -974,6 +974,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264301015}
   m_CullTransparentMesh: 1
+--- !u!1 &1402243062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1402243064}
+  - component: {fileID: 1402243063}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1402243063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402243062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12251002445ae84aadc533dec2d143e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normalBlip: {fileID: 5428839613990652480, guid: 83ea1e12a49b1394cacae912f1bc519b, type: 3}
+  mediumBlip: {fileID: 901249622632234525, guid: 6755d0169b656ba47ad44195f75c83f6, type: 3}
+  smallBlip: {fileID: 4320779358052424937, guid: ec053076136579a4fb62885ed4963739, type: 3}
+--- !u!4 &1402243064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402243062}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.45582998, y: 1.3822837, z: -0.041278042}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1593086599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1203,7 @@ MonoBehaviour:
   healthBar: {fileID: 1593086601}
   maxHealth: 3
   currentHealth: 0
+  sizeManager: {fileID: 1402243063}
 --- !u!4 &1746188378
 Transform:
   m_ObjectHideFlags: 0
@@ -1453,3 +1501,4 @@ SceneRoots:
   - {fileID: 1931819320}
   - {fileID: 689702875}
   - {fileID: 1746188378}
+  - {fileID: 1402243064}
