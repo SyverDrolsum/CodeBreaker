@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: 3338267829646768483}
   - component: {fileID: 1660547906361378407}
   - component: {fileID: 3827143533046206363}
+  - component: {fileID: 5059560987766950830}
   m_Layer: 0
   m_Name: Small Blip
   m_TagString: Player
@@ -338,6 +339,28 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!95 &5059560987766950830
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4320779358052424937}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: afed3663c983aad408ce46d77b69bc80, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6434997343496569790
 GameObject:
   m_ObjectHideFlags: 0

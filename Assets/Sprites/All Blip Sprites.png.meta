@@ -559,7 +559,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      All Blip Sprites_0: -2627173616867561155
+      All Blip Sprites_1: -5079291907914917055
+      All Blip Sprites_10: -8967234970424600432
+      All Blip Sprites_11: -146864671091527109
+      All Blip Sprites_12: -5261977249737629335
+      All Blip Sprites_13: 5742190924137518033
+      All Blip Sprites_14: -2438006766128439896
+      All Blip Sprites_15: 6628852401014821058
+      All Blip Sprites_16: 5080039827915457768
+      All Blip Sprites_17: 4397947545207734239
+      All Blip Sprites_2: 8381310816048785131
+      All Blip Sprites_3: -5371917509321686161
+      All Blip Sprites_4: -7494709506957366301
+      All Blip Sprites_5: -8602890179313874377
+      All Blip Sprites_6: -2640635621418544324
+      All Blip Sprites_7: -5836340761739887797
+      All Blip Sprites_8: -2157493305966802790
+      All Blip Sprites_9: -221019165029005315
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

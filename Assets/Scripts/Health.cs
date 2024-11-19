@@ -41,7 +41,6 @@ public class Health : MonoBehaviour
         healthBar.fillAmount = currentHealth / 3f;
         if (currentHealth == 2)
         {
-            Debug.Log("FuCk");
             sizeManager.ToMediumState();
         }
         if (currentHealth == 1)
