@@ -3,6 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class FinishScene : MonoBehaviour
 {
+
+public string sceneToLoad;
+
     void Start()
     {
         
@@ -17,7 +20,7 @@ public class FinishScene : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Scene2");
+            SceneManager.LoadScene(sceneToLoad);
         }
     }
 }
