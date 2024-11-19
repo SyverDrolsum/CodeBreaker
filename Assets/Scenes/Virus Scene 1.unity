@@ -238,11 +238,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1274691747140858364, guid: 30f691cde4b6044458e471a9b42d7911, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 2
+      value: 9.57
       objectReference: {fileID: 0}
     - target: {fileID: 1274691747140858364, guid: 30f691cde4b6044458e471a9b42d7911, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 2
+      value: 9.53
       objectReference: {fileID: 0}
     - target: {fileID: 1274691747140858364, guid: 30f691cde4b6044458e471a9b42d7911, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -343,6 +343,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6950895282669721765, guid: 30f691cde4b6044458e471a9b42d7911, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1847268850}
+    - targetCorrespondingSourceObject: {fileID: 6950895282669721765, guid: 30f691cde4b6044458e471a9b42d7911, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1847268851}
   m_SourcePrefab: {fileID: 100100000, guid: 30f691cde4b6044458e471a9b42d7911, type: 3}
 --- !u!1001 &970857264
 PrefabInstance:
@@ -565,6 +568,43 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &1847268851
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847268843}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.04522568, y: -0.080675244}
+  m_Size: {x: 1.2674607, y: 1.3540046}
+  m_Direction: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
