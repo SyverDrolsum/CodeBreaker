@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: e33f090f039961847a49aa9d3e12250b
+guid: ec64e8eb24771d948afb1367c584358a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2530564911472380330
-    second: button_0
+      213: -2392990089704371218
+    second: sketch1731882631274_0
   - first:
-      213: 1763989116612304091
-    second: button_1
+      213: -8753172210654507910
+    second: sketch1731882631274_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1000
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,45 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: button_0
+      name: sketch1731882631274_0
       rect:
         serializedVersion: 2
-        x: 472
-        y: 707
-        width: 249
-        height: 127
+        x: 583
+        y: 723
+        width: 650
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: aa90165216f5e1320800000000000000
-      internalID: 2530564911472380330
+      spriteID: 8bb9a98186942ce45bacf412450266f3
+      internalID: -737833259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button_1
+      name: sketch1731882631274_1
       rect:
         serializedVersion: 2
-        x: 115
-        y: 451
-        width: 345
-        height: 220
+        x: 590
+        y: 553
+        width: 303
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bdcd45b61c2fa7810800000000000000
-      internalID: 1763989116612304091
+      spriteID: edbc70f6900284b49a685af591364b9c
+      internalID: -684582085
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 24131f6b07e3ca147860a2ba3349bb8a
+    spriteID: 7af5a518c792977408c0f5027e084814
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      button_0: 2530564911472380330
-      button_1: 1763989116612304091
+      sketch1731882631274_0: -737833259
+      sketch1731882631274_1: -684582085
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
