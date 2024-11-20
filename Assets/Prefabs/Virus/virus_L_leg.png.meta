@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b0697e818fc769e4e8603cf8fbe995f0
+guid: a689b45ac0fefa34d81307534cec37c1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6007252423098157846
-    second: virus_R_leg_0
+      213: 6234720080222352088
+    second: virus_L_leg_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: virus_R_leg_0
+      name: virus_L_leg_0
       rect:
         serializedVersion: 2
-        x: 13
+        x: 3
         y: 4
-        width: 128
-        height: 122
+        width: 143
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae4312dbfb3f1aca0800000000000000
-      internalID: -6007252423098157846
+      spriteID: 8d2f5a741ec268650800000000000000
+      internalID: 6234720080222352088
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      virus_R_leg_0: -6007252423098157846
+      virus_L_leg_0: 6234720080222352088
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

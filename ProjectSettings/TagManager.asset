@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 3
   tags:
   - Virus
-  tags: []
   layers:
   - Default
   - TransparentFX
@@ -40,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 736868393
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
