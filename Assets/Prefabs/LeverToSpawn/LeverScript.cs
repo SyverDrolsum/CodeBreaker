@@ -6,7 +6,13 @@ public class LeverScript : MonoBehaviour
     public Transform[] spawnPoints;
     private bool isActive = false;
     private bool playerInRange = false;
-  
+
+    private Animator anim;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -15,6 +21,7 @@ public class LeverScript : MonoBehaviour
         if (playerInRange && !isActive && Input.GetKeyDown(KeyCode.E))
         {
             ActivateLever();
+            anim.SetTrigger("isPulled");
         }
     }
 
