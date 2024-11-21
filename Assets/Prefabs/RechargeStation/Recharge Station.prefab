@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &935874794699632202
+--- !u!1 &6475222899092023966
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1830631357120943078}
-  - component: {fileID: 4637852217975218746}
-  - component: {fileID: 2752640887869733729}
-  - component: {fileID: -2901751352872243649}
+  - component: {fileID: 7050224023527259957}
+  - component: {fileID: 8125208076450923310}
+  - component: {fileID: 1772432887208709024}
+  - component: {fileID: 87170711536807557}
   m_Layer: 0
-  m_Name: Collectable
+  m_Name: Recharge Station
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1830631357120943078
+--- !u!4 &7050224023527259957
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935874794699632202}
+  m_GameObject: {fileID: 6475222899092023966}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0229496, y: -0.1276296, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 1205, y: 510, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &4637852217975218746
+--- !u!212 &8125208076450923310
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935874794699632202}
+  m_GameObject: {fileID: 6475222899092023966}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -78,24 +78,24 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2510583245137743904, guid: c05955ec751e2b442a16dc2becc06f90, type: 3}
+  m_Sprite: {fileID: 220355215, guid: 5a8e4d27c8a74f24f80d147453341692, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2752640887869733729
-BoxCollider2D:
+--- !u!70 &1772432887208709024
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935874794699632202}
+  m_GameObject: {fileID: 6475222899092023966}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -124,26 +124,18 @@ BoxCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.15, y: 2.19}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 2.15, y: 2.19}
-  m_EdgeRadius: 0
---- !u!114 &-2901751352872243649
+  m_Size: {x: 2.51, y: 2.99}
+  m_Direction: 0
+--- !u!114 &87170711536807557
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935874794699632202}
+  m_GameObject: {fileID: 6475222899092023966}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a4f001413b72a478dd36b9f5e7db13, type: 3}
+  m_Script: {fileID: 11500000, guid: e3ff2820dc626f34d8f60aedcfdf532a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: {fileID: 6196576722492919675, guid: e68e3d01d1c34da4eb330c8cc5a3b809, type: 3}
