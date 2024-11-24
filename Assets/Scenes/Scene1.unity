@@ -2739,7 +2739,7 @@ SpriteRenderer:
   m_SortingLayerID: 463163641
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9145706217519343025, guid: bb7846e4c55308c47a61918bc3f29134, type: 3}
+  m_Sprite: {fileID: 5256389087450633883, guid: 2e8fef4ed3aec31418575bab46d1a509, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.5411765}
   m_FlipX: 0
   m_FlipY: 0
@@ -2783,23 +2783,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7440172121569685813, guid: 272f90f87f82e3249b5b6ce4eec92746, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.8089297
+      value: 0.83286864
       objectReference: {fileID: 0}
     - target: {fileID: 7440172121569685813, guid: 272f90f87f82e3249b5b6ce4eec92746, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.8089297
+      value: 0.83286864
       objectReference: {fileID: 0}
     - target: {fileID: 7440172121569685813, guid: 272f90f87f82e3249b5b6ce4eec92746, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.8089297
+      value: 0.83286864
       objectReference: {fileID: 0}
     - target: {fileID: 7440172121569685813, guid: 272f90f87f82e3249b5b6ce4eec92746, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.19
+      value: -9.5
       objectReference: {fileID: 0}
     - target: {fileID: 7440172121569685813, guid: 272f90f87f82e3249b5b6ce4eec92746, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.89
+      value: 3.98
       objectReference: {fileID: 0}
     - target: {fileID: 7440172121569685813, guid: 272f90f87f82e3249b5b6ce4eec92746, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2833,6 +2833,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7589818964316394251, guid: 272f90f87f82e3249b5b6ce4eec92746, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1565318358, guid: 0b9bdd78f395ee14a96aa81544907f43, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
