@@ -829,7 +829,7 @@ GameObject:
   - component: {fileID: 1548718338}
   - component: {fileID: 1548718337}
   - component: {fileID: 1548718336}
-  - component: {fileID: 1548718335}
+  - component: {fileID: 1548718339}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -856,19 +856,6 @@ RectTransform:
   m_AnchoredPosition: {x: 103, y: -81}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1548718335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548718333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c30e895f1b6813f459b1fcfa82d6cd5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelSelectionSceneName: LevelSelection
 --- !u!114 &1548718336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -913,9 +900,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1548718335}
-        m_TargetAssemblyTypeName: BackButtonScript, Assembly-CSharp
-        m_MethodName: GoBackToLevelSelection
+      - m_Target: {fileID: 1548718339}
+        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+        m_MethodName: LevelScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -963,6 +950,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548718333}
   m_CullTransparentMesh: 1
+--- !u!114 &1548718339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548718333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fd1cdf57bae06840be0d2b4c203bc26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: LevelSelection
 --- !u!1 &2132892756
 GameObject:
   m_ObjectHideFlags: 0
