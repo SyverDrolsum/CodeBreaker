@@ -1,0 +1,5295 @@
+fileFormatVersion: 2
+guid: 4dfa0209218f3214cb80ce8aec612f04
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6168649166385059457
+    second: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1861462ebb17b9550800000000000000
+      internalID: 6168649166385059457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc72f6e5c37e0e446abe7b5ee0ec198c
+      internalID: 883763763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4fe0f412388a045b905ab1adeb97ef
+      internalID: 1537757035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ed667ebbbdd934da3c15f0fd36e54e
+      internalID: 1280871080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_4
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e54e1342e5f2b41957f1dde50f7576
+      internalID: -1079459989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_5
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f414851da73394eb1f3d0c63b1a5b8
+      internalID: -2000179626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_6
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616f25bca1e3bfc49a3124cf9175106e
+      internalID: 1144607072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_7
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f946c82d6c74ad14c8f93d8b2ef1508a
+      internalID: -1779828517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_8
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f67ed53e05d6ad4abd16f032508be13
+      internalID: 1979580350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_9
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4c5ce4ac1e34c478ad07e56062f87f
+      internalID: 847461333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_10
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1783e068011b742be995dbd46b489e
+      internalID: 155098266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_11
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085ccdc7abdd9da4d972c2e4e695149b
+      internalID: -620752563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_12
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c08f4d23b65bf4c9943e657fe7cc5a
+      internalID: 518998305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_13
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9260b3ea1f1158142b98449f52358dd8
+      internalID: 313648203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_14
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 898
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34c896b4d51f114abebacc0e491ef6c
+      internalID: 1284329823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_15
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45312b967534a549b908098d02aff7e
+      internalID: 1268315496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_16
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9150b9c788c275341a1066afc8e2ea78
+      internalID: -2086961244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_17
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfc572be07262846b2c9d3959d6ec9b
+      internalID: 2084468413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_18
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35e2030a0bd4b447b6e55a097d203bc
+      internalID: -1342067399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_19
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02339df7ff23d80439f76d7ba1fdffc2
+      internalID: -1025882918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_20
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a77d4d96d493e14da765221ccae8075
+      internalID: 952436561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_21
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f933c1289327c44b93fc5b867ad32cb
+      internalID: -1228803968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_22
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bb83feba11e12439123c7fe6953b7c
+      internalID: 889631261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_23
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5636876caa16f04387488c9d1ef374e
+      internalID: 181267993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_24
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f450cb531ea1f4faf08b2c5ce3ac01
+      internalID: -1028504931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_25
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228c4bbd75f4d0e48bd556088437a075
+      internalID: -1282131531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_26
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166c06a0203fbac42b7e4101ec30b87e
+      internalID: -1611230445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_27
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936cb3fdb66a84340aa748a438f64ab6
+      internalID: 1036446365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_28
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfe9da9658c9e040acce2cc213e45fc
+      internalID: -775598875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_29
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 834
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c517ffc81a44eed4f8df75b63caeeeae
+      internalID: 825674157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_30
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45aa836d32ebf5d46851fe6df563a5b7
+      internalID: 316556486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_31
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c2b49abdae72744976660b1ca3e8e9
+      internalID: 1859468941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_32
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a749f76ca6a9e4eb5a2fd05e863d4f
+      internalID: -765670765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_33
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddde565392e86e4fbaefaa0d1172dff
+      internalID: -1146863250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_34
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78f2729154d2ab4cbb36630b6b76f4d
+      internalID: 447527274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_35
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0287ee1deda354893df52a43613a72
+      internalID: -1650291053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_36
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a5bc5850d3dfa4a9992e5e29f651af
+      internalID: 1941277200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_37
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb98f64077798ff4490dd89486b73b8b
+      internalID: -1316734393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_38
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763db61df2f24c84499ba70b0dedef87
+      internalID: -2011270912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_39
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64debf459a7f58a40a4e0581ba99c8c5
+      internalID: 755221556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_40
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18396d08e3ca84440855115d96481da9
+      internalID: -1622448830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_41
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e75def3056ab04d97becf3c117c877
+      internalID: 1753473533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_42
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7618f9de3f2c40f499f17fb22cd76416
+      internalID: 1180426303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_43
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20b2a09e8ea3854ca950b89940d0161
+      internalID: 975144516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_44
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 770
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e01c2bcf5e66a94c8fcbb4720209fd3
+      internalID: -163143431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_45
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8b16d024303b04180300c7ec1985bd
+      internalID: -478148361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_46
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3d0d3c907984c47a6d5f99ad30e8da
+      internalID: 788425157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_47
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e5c2b86b3a19e439ed408dbed86e4d
+      internalID: -1183065135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_48
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9bfe92b6b48604d885fff8ef79bbc4
+      internalID: -501105653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_49
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0134485b9366964ab91e884cd8e82bb
+      internalID: 407359110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_50
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84811ff6fe73f1143a5eb6f24f6bdf3a
+      internalID: 230197932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_51
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacd313fcf5e5134fb0a78241f38ff13
+      internalID: -1557606073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_52
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e83d0d4b08d9b49ab3f0a7283d342c
+      internalID: 554068231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_53
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0650e3a2b041b44bf4e91b6a6edf6d
+      internalID: 1615435227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_54
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c4b10a508bf254da8294a4a0a8217d
+      internalID: 309621546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_55
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fff9609f20a297418f4ae9e654947aa
+      internalID: -1908196064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_56
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce3d922056ff7748a2ab604f4a5cc69
+      internalID: -2068924947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_57
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcbc7bc976514c47a7d10c1b4885a84
+      internalID: 560175125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_58
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9867d858e72ab408048465bdb435e1
+      internalID: 1849402428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_59
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 706
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0475b568005270f4fb3e64bd9741d35a
+      internalID: 664280074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_60
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afec6e6134085942a7aad54b6ea3393
+      internalID: 568179271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_61
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e77f62d5bbdbc748912a59b9d27372a
+      internalID: -689446591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_62
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff7f82f352f49548b43e0ea11a4132d
+      internalID: -712739356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_63
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab906146daa5f749a512bf6723ba48a
+      internalID: -749098951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_64
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8a7fff2430a43479cf007269717992
+      internalID: 1296750533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_65
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5876f8bd94f1c44f9a0dae3d608e79e
+      internalID: 1122254145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_66
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4ae7727d9fe2b43af74de12d142df8
+      internalID: 1994130449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_67
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80634683e2af6744ca98e3b95a959f39
+      internalID: 1076911135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_68
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b32ce0416495b044b7085ef9f7fe5fb
+      internalID: 1592294082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_69
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c55177fd909ff469f4b1949c7ac8eb
+      internalID: 1596491743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_70
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899aafcef375e2c4fb23576929ae3d8b
+      internalID: 2108390662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_71
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca802e9ceab3aa4f84240726f0d5efb
+      internalID: 864613381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_72
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844096474f70fa4439754229bd83fd6b
+      internalID: 385362536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_73
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42f5e085e5adaa42828cf797d2bace8
+      internalID: 179555691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_74
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 642
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e40ff91bf60f44c8a6938269e6c6ab
+      internalID: 1286574130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_75
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3015b50fe3eb140947a8376f902e71
+      internalID: 92171417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_76
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8b9827c46c5a54fa0e7a511b39be81
+      internalID: 1817708576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_77
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7421171b4d6274fab12150f1228a76
+      internalID: 1686880753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_78
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a588eecaaafd5d445bf1e5c3dafa7b57
+      internalID: -1040286300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_79
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a538c45d5acc942813b073b02c56a3
+      internalID: -1343954886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_80
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d017e9488fd204ba6444697bbfa8a7
+      internalID: 721283160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_81
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48adde476b0635438d7471b1dc623a6
+      internalID: 811318906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_82
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f252e5746dc544d4786c41b3fe6c67c9
+      internalID: -947610159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_83
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f123287ec1b424496467e5d026f654
+      internalID: -1864348505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_84
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4394724377203f48acb6d4bc16b34e8
+      internalID: 1720727460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_85
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362125e4f4a72f548acf6f2cc1c4b3f8
+      internalID: -811889252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_86
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27637e56767ced446b146f451876e2c5
+      internalID: 552471794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_87
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd968c95f2f69704eb77f159bbb103d7
+      internalID: 306641691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_88
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2bc4e697c77e34c89064960977c349
+      internalID: 953186028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_89
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 578
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d2333996da5604d83121a4ca2e880d
+      internalID: -234197033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_90
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687874f1e7851a74397a00c7363c4cea
+      internalID: -575688220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_91
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2935b3626fac5924fbf5f12f28862070
+      internalID: -232070347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_92
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b771e2ac892459b44ab61c54accd5754
+      internalID: 1760429337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_93
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0eefc0ed2fdba4b88b04c727ada773
+      internalID: 2015119965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_94
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb504bcd1e000cd4990af2f253f27e36
+      internalID: 1419425574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_95
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db7c6415852f7a43a8c366786173984
+      internalID: 489271215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_96
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1c506b7964217489dbf181eb822310
+      internalID: 183649515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_97
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4061ff1a27eec6544942b31285a3e6aa
+      internalID: -602337270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_98
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cfa4adfc841ae46bd5b1a73a2ac8a6
+      internalID: 957685573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_99
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f51628fad2b98641b685423bf1fabef
+      internalID: -567331306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_100
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017448b0fabc2d146899d77dcd9ef31e
+      internalID: 1135730605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_101
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa98d34832cc704d93d6a62184678ad
+      internalID: -1013387249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_102
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1377a0b2c832aea40945832358571954
+      internalID: 1754138060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_103
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aeaa959f87152e49adf7e55a3d3e4b0
+      internalID: 1750424560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_104
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 514
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f480b600bdaf91429fc2291e10b6881
+      internalID: 1643836404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_105
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fc0c043eced694ea54150ac81b15eb
+      internalID: -183497432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_106
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fb52b02158b434da01c5efa3c8988d
+      internalID: 23130073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_107
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d365a57ec92904a8274684ff71ab62
+      internalID: -1614430483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_108
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b759ee55979d7d45ad5450e560a2867
+      internalID: -1413703948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_109
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aedc117f8ebc5d418d6ff0de57f42f4
+      internalID: 146784255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_110
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2602b458660d6546968c1df0bbf483b
+      internalID: 1938263247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_111
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70228d2b038add44c8ae756b6fc251d4
+      internalID: -1617209615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_112
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d90d5fee5b79d4ba6d987f4bea1253
+      internalID: 295655375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_113
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5681b7dca2c5e5d449a7fc04bdb11000
+      internalID: -1103974140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_114
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92024f99eb4b92040a9de261597fb9f5
+      internalID: 1716005078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_115
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6b357374bcbc34095341eadf97129d
+      internalID: -82270893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_116
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5da06cb06d0a04eb811c0f82943458
+      internalID: 1317112853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_117
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4877572295b45634d9b7cf147aff3313
+      internalID: 547143843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_118
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106262d08f3da5243b8bc70a8d0701d7
+      internalID: 1036755202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_119
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec13c6f8fcbdfc34692e4b6737a20a7d
+      internalID: -2146460892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_120
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0a2eaad6104444f81baffa78efc789
+      internalID: 835364006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_121
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93519bcf90bc2304b8312a991f7cb2b0
+      internalID: 625446650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_122
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668887348d3d5444c8dcbb6bb939cd23
+      internalID: -1812984367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_123
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d178b7d428ca240ac7117d9a187f2f
+      internalID: 1240350141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_124
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5056d769176e94e8693ab777d6bc05
+      internalID: 1276469036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_125
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96859f41a9a13d14d9b2fcfe7a4359b2
+      internalID: -1844510943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_126
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311c92957f956974a8c3b7ee0de22ce4
+      internalID: -990326190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_127
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed89ce2826103e845ba15f0ce970031e
+      internalID: -2021536781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_128
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6f57c82553b41469cfab27834469fc
+      internalID: 20548374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_129
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33e0e4326a47034e98c9c0e85f65415
+      internalID: 928835199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_130
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d185bf6dd85239244a3b6602828091c8
+      internalID: 2030940776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_131
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce39b073abd91c45bf45fcf6d6373ec
+      internalID: -1136050938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_132
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b5d25621331af48aee67d3594ddeb0
+      internalID: -1075204103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_133
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02beb60d576b4444bb7812d34bfd5004
+      internalID: -686108074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_134
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a5b6db7b8447749a587ed74170673d
+      internalID: 1372068336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_135
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390f6a26415f2a84baea5055d19c3679
+      internalID: -1328225375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_136
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc84260b527dde48b9622c9bd79e652
+      internalID: -682967459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_137
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f0b5d444f401944a9c300ad954255a
+      internalID: 1235846418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_138
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a49233963bc5b42a8fce82c11b806a
+      internalID: 187005089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_139
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12c294f9bd8c8d488915db3872dcdff
+      internalID: 975730512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_140
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fb3f913cc8d95428e54de00bb4b309
+      internalID: 1980902361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_141
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a456cef02f7c9fa4fb910d46b47a4e22
+      internalID: -575845560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_142
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487050a0fa91f034b8034c3e7ef5e886
+      internalID: -1269912925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_143
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2709741def8ae44ab4ea2a5f6d3fab4
+      internalID: -17027591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_144
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fe9b38883792041bbddcf6df425950
+      internalID: -1899362157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_145
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a2c1e46a83c3845aff1df5a76f0ec6
+      internalID: -246331682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_146
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4123cc94c0da1499bbeaba4c6bfc59
+      internalID: -1980667392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_147
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad71f4ed0a633584faa321c20715efb0
+      internalID: 1426380177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_148
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844b7c75745f95749be689b2bc0cf8b3
+      internalID: -1420665191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_149
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00adb8652d5df13448f33a4df3ac7ac9
+      internalID: -1172975511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_150
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfe62e392fad7d4f884174400c5fe9d
+      internalID: -1726542095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_151
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024d2e8ab52a11243b0d23aafc9146d4
+      internalID: 952492243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_152
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ef1807f150ce640b4debe6a33f1b0a
+      internalID: 514296255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_153
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ba42b938d924f4eb7eef1b986dc15b
+      internalID: 182412580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_154
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d7c0b9971b03d4db1c6c74dd0f5e3f
+      internalID: 2125308039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_155
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36adeb148eefb4e4185a74c38382f5fb
+      internalID: 212130562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_156
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f389729334268ff4c873df9cad6babd9
+      internalID: -546840234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_157
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1f12fa12cc6f84ab1e6b3b7a89af80
+      internalID: -1343256517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_158
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d439eab701ed84ab0268606b24836f
+      internalID: -1574208581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_159
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0381c06e2a0490f4baa55a7a68d6470d
+      internalID: 1647734539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_160
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ff177b25d99764e834d72f23285b7f
+      internalID: 912242450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_161
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686f16fb95757fe48b98a6017788bc72
+      internalID: -1471734656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_162
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61bfd1c9181b3f45ae430b1a84ea012
+      internalID: 477715041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_163
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f70e2b69573b3b4ab8cfc695f5fd5ce
+      internalID: 1898398953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_164
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fd531631e915e48acb52bef5395caa
+      internalID: -1949673477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_165
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d558c0a950a6d03469fe8c1aee32880e
+      internalID: 1680844348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_166
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5e49a5b1c255d48a3b7cd4ca8f6cab
+      internalID: -786533775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_167
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8900dee577d2baa458d38d9b19713158
+      internalID: -1266905505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_168
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944549d6360f30142a9b3a6bb46cef0b
+      internalID: -1764163705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_169
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f839d1f783dffd140abed96792c00cfb
+      internalID: 1027915706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_170
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc63222e80a7fc4bac5bb1cbef25500
+      internalID: 898178770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_171
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd403eb40f1bc746a70a4eb2b693ef0
+      internalID: 435450747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_172
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76687306119a5c64ab9246914010ed16
+      internalID: -1930310084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_173
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff351ae5f383cbb4dbacbb91084676dd
+      internalID: -1534329875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_174
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550262403f14f564480731a97467f309
+      internalID: 1014321249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_175
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795fae8c94f22184686d4836ad77b72b
+      internalID: -1215562090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_176
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d50302d9cd9c24eac4a979ec1def76
+      internalID: -1711060766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_177
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d532d15d37da88941b21d36fc58fbef7
+      internalID: 1487931403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_178
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da11fe1025865344cbbe22ec55750e54
+      internalID: 159024594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_179
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac8052a5d6432245949477f20d6d0e3
+      internalID: 432287609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_180
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a18267faff650e4f818bb49ccf0e3ee
+      internalID: -91935819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_181
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc000a6c8c7da73499fc521c16c07a73
+      internalID: -937877957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_182
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f1ec4ef15a6d849b1e390a1dbf27e4
+      internalID: 747780310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_183
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a4eacf579101b458aa4c675ce0fb81
+      internalID: 1637180780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_184
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c0ac35e37fd46498159db980feda9d
+      internalID: 29157175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_185
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81839c5c257d83340b10f47fb128d1bd
+      internalID: 2046649009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_186
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb64c5f83be73134a80674b82b03002f
+      internalID: -2001027881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_187
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd6af05bc5929340bb792b6bfa28af7
+      internalID: 568981496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_188
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1647d6e63110ca42be334d1689e2a94
+      internalID: -1222487363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_189
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4351faa4c1b4c4a9eb382f8f1b6e76
+      internalID: -2104102833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_190
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fd1f056e572284e939128dbea389c3
+      internalID: -1981430045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_191
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfd7992c07547947aaf24ef72163fbd
+      internalID: -207930589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_192
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f1df5f5c56fbd428ea4ced77929b91
+      internalID: 1580710094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_193
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6544c353fbd5f14a9633aaa6c8a1302
+      internalID: 2115942109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_194
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8f4847f5a31da4f87abf64094f39b9
+      internalID: -420572173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_195
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c3e29e775f58b4e82e9024fd844a34
+      internalID: 1212152873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_196
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa47b40e9263ba4898351736880445d
+      internalID: 834154529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_197
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865835e24a3d0844b8a2ce1aa9797594
+      internalID: 1837788945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_198
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e30c41985945cb4d889766dd4b8dfb9
+      internalID: -1572769638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_199
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fd95bbe5ff7124e9338d64e77952e9
+      internalID: 54318089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_200
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f989f6a462e75442bbc1fe80a9db44e
+      internalID: 1274533598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_201
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb1d7fb052139b4d8f8bf6acdc0a07c
+      internalID: -821890932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_202
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa2ada16b713c5458150bd98505c04e
+      internalID: 1057543528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_203
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ec03aafee03954089b864e5dc5894c
+      internalID: -1130977652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_204
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945dbe5af0b20d0489273ffc5665d879
+      internalID: -944536057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_205
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5578d5392a2b949bbfb01144cb9bc6
+      internalID: 1826837761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_206
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ca6f432e23d94478b3626ec4a4d798
+      internalID: 1150848741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_207
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbc3085ae40acf449994876c1d10f29
+      internalID: -1965361192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_208
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7588c4158ec2d6a4c9d49a4d4ad482b1
+      internalID: 207265755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_209
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155a9fd74e177a544873f4ab0aedfe6b
+      internalID: 422418061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_210
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc9cd035d130414ba56e6caa9b27b2c
+      internalID: -1343547117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_211
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1534ebccc5308a3418a77de6bc30afc8
+      internalID: -2122175593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_212
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faf36034157eeb40a8ecee0367dd417
+      internalID: 657283311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_213
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f223ec656d60a64090c07376ca62746
+      internalID: 2038662030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_214
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939cbb07c9899f043812f5032914efc0
+      internalID: -782480644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_215
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc8419165965f64781f496b370f4abc
+      internalID: 218956702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_216
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ec8c28b7015b349a4b280a95012e89
+      internalID: -545115070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_217
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921b545553dd673449cff2706df8c899
+      internalID: -1055534094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_218
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2824bc3e42096ea4190491f6e847caf5
+      internalID: 1108859589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_219
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73493f32c317af542a04d7a7a658d8d5
+      internalID: 1755036415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_220
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57a3bc0de5b753419efe884e0d07c62
+      internalID: -389822046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_221
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044a62489cb65c747b4bbaf60a2e2575
+      internalID: 134918778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_222
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12a2fb1efea44745b9b649d45ac43cd
+      internalID: 893463201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_223
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f6b616060c5c7488871281b2cb16c3
+      internalID: 1627175246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_224
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948f60115c6aa9144ac191e6a24f573a
+      internalID: 1319518382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d0aadfcdb9679754cb813635acc192f9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_0: 6168649166385059457
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_1: 883763763
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_10: 155098266
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_100: 1135730605
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_101: -1013387249
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_102: 1754138060
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_103: 1750424560
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_104: 1643836404
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_105: -183497432
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_106: 23130073
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_107: -1614430483
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_108: -1413703948
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_109: 146784255
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_11: -620752563
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_110: 1938263247
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_111: -1617209615
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_112: 295655375
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_113: -1103974140
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_114: 1716005078
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_115: -82270893
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_116: 1317112853
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_117: 547143843
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_118: 1036755202
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_119: -2146460892
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_12: 518998305
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_120: 835364006
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_121: 625446650
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_122: -1812984367
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_123: 1240350141
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_124: 1276469036
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_125: -1844510943
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_126: -990326190
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_127: -2021536781
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_128: 20548374
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_129: 928835199
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_13: 313648203
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_130: 2030940776
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_131: -1136050938
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_132: -1075204103
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_133: -686108074
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_134: 1372068336
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_135: -1328225375
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_136: -682967459
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_137: 1235846418
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_138: 187005089
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_139: 975730512
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_14: 1284329823
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_140: 1980902361
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_141: -575845560
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_142: -1269912925
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_143: -17027591
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_144: -1899362157
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_145: -246331682
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_146: -1980667392
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_147: 1426380177
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_148: -1420665191
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_149: -1172975511
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_15: 1268315496
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_150: -1726542095
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_151: 952492243
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_152: 514296255
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_153: 182412580
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_154: 2125308039
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_155: 212130562
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_156: -546840234
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_157: -1343256517
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_158: -1574208581
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_159: 1647734539
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_16: -2086961244
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_160: 912242450
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_161: -1471734656
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_162: 477715041
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_163: 1898398953
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_164: -1949673477
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_165: 1680844348
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_166: -786533775
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_167: -1266905505
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_168: -1764163705
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_169: 1027915706
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_17: 2084468413
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_170: 898178770
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_171: 435450747
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_172: -1930310084
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_173: -1534329875
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_174: 1014321249
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_175: -1215562090
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_176: -1711060766
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_177: 1487931403
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_178: 159024594
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_179: 432287609
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_18: -1342067399
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_180: -91935819
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_181: -937877957
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_182: 747780310
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_183: 1637180780
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_184: 29157175
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_185: 2046649009
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_186: -2001027881
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_187: 568981496
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_188: -1222487363
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_189: -2104102833
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_19: -1025882918
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_190: -1981430045
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_191: -207930589
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_192: 1580710094
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_193: 2115942109
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_194: -420572173
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_195: 1212152873
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_196: 834154529
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_197: 1837788945
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_198: -1572769638
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_199: 54318089
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_2: 1537757035
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_20: 952436561
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_200: 1274533598
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_201: -821890932
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_202: 1057543528
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_203: -1130977652
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_204: -944536057
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_205: 1826837761
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_206: 1150848741
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_207: -1965361192
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_208: 207265755
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_209: 422418061
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_21: -1228803968
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_210: -1343547117
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_211: -2122175593
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_212: 657283311
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_213: 2038662030
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_214: -782480644
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_215: 218956702
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_216: -545115070
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_217: -1055534094
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_218: 1108859589
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_219: 1755036415
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_22: 889631261
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_220: -389822046
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_221: 134918778
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_222: 893463201
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_223: 1627175246
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_224: 1319518382
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_23: 181267993
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_24: -1028504931
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_25: -1282131531
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_26: -1611230445
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_27: 1036446365
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_28: -775598875
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_29: 825674157
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_3: 1280871080
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_30: 316556486
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_31: 1859468941
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_32: -765670765
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_33: -1146863250
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_34: 447527274
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_35: -1650291053
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_36: 1941277200
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_37: -1316734393
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_38: -2011270912
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_39: 755221556
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_4: -1079459989
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_40: -1622448830
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_41: 1753473533
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_42: 1180426303
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_43: 975144516
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_44: -163143431
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_45: -478148361
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_46: 788425157
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_47: -1183065135
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_48: -501105653
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_49: 407359110
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_5: -2000179626
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_50: 230197932
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_51: -1557606073
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_52: 554068231
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_53: 1615435227
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_54: 309621546
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_55: -1908196064
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_56: -2068924947
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_57: 560175125
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_58: 1849402428
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_59: 664280074
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_6: 1144607072
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_60: 568179271
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_61: -689446591
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_62: -712739356
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_63: -749098951
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_64: 1296750533
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_65: 1122254145
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_66: 1994130449
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_67: 1076911135
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_68: 1592294082
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_69: 1596491743
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_7: -1779828517
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_70: 2108390662
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_71: 864613381
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_72: 385362536
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_73: 179555691
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_74: 1286574130
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_75: 92171417
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_76: 1817708576
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_77: 1686880753
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_78: -1040286300
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_79: -1343954886
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_8: 1979580350
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_80: 721283160
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_81: 811318906
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_82: -947610159
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_83: -1864348505
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_84: 1720727460
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_85: -811889252
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_86: 552471794
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_87: 306641691
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_88: 953186028
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_89: -234197033
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_9: 847461333
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_90: -575688220
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_91: -232070347
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_92: 1760429337
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_93: 2015119965
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_94: 1419425574
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_95: 489271215
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_96: 183649515
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_97: -602337270
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_98: 957685573
+      A_hand-drawn_2D_tileset_with_a_cyberpunk_and_digit_64x64_99: -567331306
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
