@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadScene : MonoBehaviour
+public class LoadScenes : MonoBehaviour
 {
     [SerializeField] private string levelMapScene = "Level_Map";
     [SerializeField] private string loadGameScene = "Load_Scene";

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      USB portal_0: 7632563449323230353
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
