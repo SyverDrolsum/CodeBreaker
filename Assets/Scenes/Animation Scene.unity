@@ -495,6 +495,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6601851504815109615, guid: 30f691cde4b6044458e471a9b42d7911, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 2101970450}
     - target: {fileID: 6950895282669721765, guid: 30f691cde4b6044458e471a9b42d7911, type: 3}
       propertyPath: m_Name
       value: Virus
@@ -502,10 +506,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6950895282669721765, guid: 30f691cde4b6044458e471a9b42d7911, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1657900666}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30f691cde4b6044458e471a9b42d7911, type: 3}
 --- !u!1001 &1364184440
 PrefabInstance:
@@ -515,25 +516,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 87170711536807557, guid: bed97f4613a00584fa29eaf26e96d4a5, type: 3}
-      propertyPath: health
-      value: 
-      objectReference: {fileID: 2101970450}
     - target: {fileID: 6475222899092023966, guid: bed97f4613a00584fa29eaf26e96d4a5, type: 3}
       propertyPath: m_Name
       value: Recharge Station
-      objectReference: {fileID: 0}
-    - target: {fileID: 7050224023527259957, guid: bed97f4613a00584fa29eaf26e96d4a5, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7050224023527259957, guid: bed97f4613a00584fa29eaf26e96d4a5, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7050224023527259957, guid: bed97f4613a00584fa29eaf26e96d4a5, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7050224023527259957, guid: bed97f4613a00584fa29eaf26e96d4a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -575,10 +560,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7050224023527259957, guid: bed97f4613a00584fa29eaf26e96d4a5, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -606,24 +587,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1657900659 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6950895282669721765, guid: 30f691cde4b6044458e471a9b42d7911, type: 3}
-  m_PrefabInstance: {fileID: 1247705950}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1657900666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657900659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0004d8a010ac00b408d4c89fe27b8bbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: {fileID: 2101970450}
 --- !u!1 &2015008694
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,10 +840,6 @@ PrefabInstance:
     - target: {fileID: 2371281185664372029, guid: 80a1a7be75c74db41a447c7b8d302caa, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 2371281185664372029, guid: 80a1a7be75c74db41a447c7b8d302caa, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4399775266655690788, guid: 80a1a7be75c74db41a447c7b8d302caa, type: 3}
       propertyPath: m_LocalPosition.x
