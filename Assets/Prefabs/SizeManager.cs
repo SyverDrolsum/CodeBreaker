@@ -6,7 +6,12 @@ public class SizeManager : MonoBehaviour
     public GameObject mediumBlip;
     public GameObject smallBlip;
 
+
     private GameObject currentState;
+
+    public GameObject Player => currentState;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
