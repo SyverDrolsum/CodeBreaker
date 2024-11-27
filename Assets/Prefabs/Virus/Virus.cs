@@ -12,10 +12,14 @@ public class Virus : MonoBehaviour
     private float cycle = 0;
     private float cycle2 = 10;
     private float player_x_value;
+
+    private Animator anim;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -25,6 +29,7 @@ public class Virus : MonoBehaviour
         {
             if (cycle < timer)
             {
+                anim.SetBool("isMoving", true);
                 VirusMoveRight();
                 cycle += Time.deltaTime;
             }
@@ -35,6 +40,7 @@ public class Virus : MonoBehaviour
 
             if (cycle2 < timer)
             {
+                anim.SetBool("isMoving", true);
                 VirusMoveLeft();
                 cycle2 += Time.deltaTime;
             }
@@ -44,8 +50,7 @@ public class Virus : MonoBehaviour
             }
         }
         else
-        {
-            VirusMoveStop(); 
+        { 
             float virus_x_value = virusBody.transform.position.x;
             if (virus_x_value < player_x_value)
             {
