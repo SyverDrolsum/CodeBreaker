@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: b5d6d6ecc0fcbff4c829902e9448318e
+guid: 182e0894fc11a714c865eeb8b6d9b5a1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1220138321354631418
-    second: sketch1732463003468_0
-  - first:
-      213: 890105430169073899
-    second: sketch1732463003468_1
+      213: 5256389087450633883
+    second: sketch1732371273078_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sketch1732463003468_0
+      name: sketch1732371273078_0
       rect:
         serializedVersion: 2
-        x: 992
-        y: 750
-        width: 44
-        height: 203
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bad9995237b4749498003dd1c993242c
-      internalID: 2022906365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sketch1732463003468_1
-      rect:
-        serializedVersion: 2
-        x: 1289
-        y: 724
-        width: 220
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 017b2fe8f1756cb4b9dd9824e6f903f6
-      internalID: 1565318358
+      spriteID: c353f438962409540aae9c0ed92cb78e
+      internalID: 839133456
       vertices: []
       indices: 
       edges: []
@@ -150,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 85af5e65f8955644e94d5d8cc0f642b6
+    spriteID: 91e03c832a00f354d849a5552552e7d3
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sketch1732463003468_0: 2022906365
-      sketch1732463003468_1: 1565318358
+      sketch1732371273078_0: 839133456
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

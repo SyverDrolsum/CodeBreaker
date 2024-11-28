@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class ButtonPress : MonoBehaviour
 {
-    private Vector3 originalScale;
+    private Vector3 originalScale;      //store buttons original scale
     public Vector3 pressedScale = new Vector3(0.6f, 0.25f, 1f);  // Scale when pressed
     public GameObject shutter;  // Reference to the shutter to open
-    private ShutterController shutterController;
+    private ShutterController shutterController;        //reference to the script attached to the shutter
 
     void Start()
     {
@@ -19,23 +19,25 @@ public class ButtonPress : MonoBehaviour
         }
     }
 
+    //check if player has entered buttons trigger zone
 private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
         {
-            transform.localScale = pressedScale;
+            transform.localScale = pressedScale;        //change buttons scale 
 
-            shutterController.OpenShutter();
+            shutterController.OpenShutter();        //open shutter using the ShutterController
         }
     }
 
+    //check if player has exited buttons trigger zone
 private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            transform.localScale = originalScale;
+            transform.localScale = originalScale;       //reset button to original scale
 
-            shutterController.CloseShutter();
+            shutterController.CloseShutter();       //close shutter
         }
     }
 }

@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class LeverScript : MonoBehaviour
 {
-    public GameObject[] platformPrefabs;
-    public Transform[] spawnPoints;
+    public GameObject[] platformPrefabs;        //platform-prefabs to spawn
+    public Transform[] spawnPoints;     //spawn points where platforms appear
     private bool isActive = false;
     private bool playerInRange = false;
 
@@ -11,17 +11,17 @@ public class LeverScript : MonoBehaviour
 
     private void Start()
     {
-        anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();        //get animator component attached to the lever GameObject
     }
 
     private void Update()
     {
-        Debug.Log($"Player In Range: {playerInRange}, Lever Active: {isActive}");
+        //check if player is in range and pressing E
 
         if (playerInRange && !isActive && Input.GetKeyDown(KeyCode.E))
         {
-            ActivateLever();
-            anim.SetTrigger("isPulled");
+            ActivateLever();        //trigger lever
+            anim.SetTrigger("isPulled");       //play lever animation
         }
     }
 
@@ -35,6 +35,7 @@ public class LeverScript : MonoBehaviour
         }
     }
 
+    //check if player enters levers trigger zone
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -49,12 +50,14 @@ public class LeverScript : MonoBehaviour
         isActive = true;
         Debug.Log("Lever activated! Platforms spawned.");
 
+        //ensures number of platform prefabs matches number of spawn point
         if (platformPrefabs.Length != spawnPoints.Length)
         {
             Debug.LogError("Platform Prefabs and Spawn Points arrays do not match in length!");
             return;
         }
 
+        //spawn platforms
         for (int i = 0; i < platformPrefabs.Length && i < spawnPoints.Length; i++)
         {
             Instantiate(platformPrefabs[i], spawnPoints[i].position, spawnPoints[i].rotation);

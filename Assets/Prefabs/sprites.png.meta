@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: 6c79e06180fac6d46a5c3d12faa32f66
+guid: 56455e9d1c46105469d3a7606fd46652
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4460365167371327554
-    second: collectable_0
+      213: -2002222025609126281
+    second: 613bb633-e889-484f-8b70-eacbe1d1968b_0
   - first:
-      213: 3146571225269356292
-    second: collectable_1
+      213: 2109915176542002882
+    second: 613bb633-e889-484f-8b70-eacbe1d1968b_1
   - first:
-      213: 6378663512050453658
-    second: collectable_2
+      213: 7500645679866000019
+    second: 613bb633-e889-484f-8b70-eacbe1d1968b_2
   - first:
-      213: 5254610331552582683
-    second: collectable_3
-  - first:
-      213: 819957032737397736
-    second: collectable_4
-  - first:
-      213: 4893712172236416962
-    second: collectable_5
-  - first:
-      213: -4744811294348185811
-    second: collectable_6
-  - first:
-      213: 1223889455758028157
-    second: collectable_7
+      213: 7300950607152776623
+    second: 613bb633-e889-484f-8b70-eacbe1d1968b_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,177 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: collectable_0
+      name: collectable
       rect:
         serializedVersion: 2
-        x: 1083
-        y: 732
-        width: 283
-        height: 272
+        x: 488
+        y: 1920
+        width: 354
+        height: 345
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24891b9dc7666ed30800000000000000
-      internalID: 4460365167371327554
+      spriteID: 77eda1a0dada634e0800000000000000
+      internalID: -2002222025609126281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: collectable_1
+      name: speakingBubble
       rect:
         serializedVersion: 2
-        x: 1229
-        y: 957
-        width: 10
-        height: 7
+        x: 1548
+        y: 1813
+        width: 1324
+        height: 351
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40745aeabdddaab20800000000000000
-      internalID: 3146571225269356292
+      spriteID: 2ceddfb9cace74d10800000000000000
+      internalID: 2109915176542002882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: collectable_2
+      name: light
       rect:
         serializedVersion: 2
-        x: 1237
-        y: 959
-        width: 9
-        height: 6
+        x: 780
+        y: 1315
+        width: 147
+        height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9c43892ba0958850800000000000000
-      internalID: 6378663512050453658
+      spriteID: 3923b767185a71860800000000000000
+      internalID: 7500645679866000019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: collectable_3
+      name: screen
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 957
-        width: 6
-        height: 8
+        x: 1598
+        y: 1193
+        width: 409
+        height: 246
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1c0a45a1402ce840800000000000000
-      internalID: 5254610331552582683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: collectable_4
-      rect:
-        serializedVersion: 2
-        x: 1198
-        y: 725
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8eb5563b392116b00800000000000000
-      internalID: 819957032737397736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: collectable_5
-      rect:
-        serializedVersion: 2
-        x: 1256
-        y: 713
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c7282bea45f9e340800000000000000
-      internalID: 4893712172236416962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: collectable_6
-      rect:
-        serializedVersion: 2
-        x: 1075
-        y: 678
-        width: 17
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2f6d12544b072eb0800000000000000
-      internalID: -4744811294348185811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: collectable_7
-      rect:
-        serializedVersion: 2
-        x: 1195
-        y: 673
-        width: 33
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d7dadceb9f02cf010800000000000000
-      internalID: 1223889455758028157
+      spriteID: fa5830625ef225560800000000000000
+      internalID: 7300950607152776623
       vertices: []
       indices: 
       edges: []
@@ -300,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f48999cf7f9935544866dfc562d15da8
     internalID: 0
     vertices: []
     indices: 
@@ -310,14 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      collectable_0: 4460365167371327554
-      collectable_1: 3146571225269356292
-      collectable_2: 6378663512050453658
-      collectable_3: 5254610331552582683
-      collectable_4: 819957032737397736
-      collectable_5: 4893712172236416962
-      collectable_6: -4744811294348185811
-      collectable_7: 1223889455758028157
+      collectable: -2002222025609126281
+      light: 7500645679866000019
+      screen: 7300950607152776623
+      speakingBubble: 2109915176542002882
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

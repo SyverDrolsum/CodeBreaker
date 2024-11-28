@@ -1,26 +1,18 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement;      //handling scene transitions
 
 public class FinishScene : MonoBehaviour
 {
 
-public string sceneToLoad;
+public string sceneToLoad;      //scene to load
 
-    void Start()
-    {
-        
-    }
 
-    void Update()
-    {
-        
-    }
-
+    //function to detect if player is in contact 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(sceneToLoad);
+            SceneManager.LoadScene(sceneToLoad);        //load new scene
         }
     }
 }
