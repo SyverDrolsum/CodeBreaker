@@ -10,15 +10,17 @@ public class PortalBehaviour : MonoBehaviour
 
     private bool canTeleport = false;
 
+
     public void Update()
     {
+        //When player touches portal and W is pressed, teleport to other portal
         if(canTeleport && Input.GetKeyUp(KeyCode.W))
         {
             player = sizeManager.Player;
             player.transform.position = destination.transform.position;
         }
     }
-
+    //When touching Player, canTeleport is true
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -26,7 +28,7 @@ public class PortalBehaviour : MonoBehaviour
             canTeleport = true;
         }
     }
-
+    //When not touching Player anymore, canTeleport is false
     public void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
