@@ -5,10 +5,11 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-    public Image healthBar;
+   // public Image healthBar;
     public int maxHealth = 3;
     public int currentHealth;
     private bool isInvincible = false;
+    
 
     public SizeManager sizeManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -25,7 +26,7 @@ public class Health : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         
-        if (Input.GetKeyUp(KeyCode.Space))
+   /*     if (Input.GetKeyUp(KeyCode.Space))
         {
             TakeDamage(1);
         }
@@ -33,7 +34,7 @@ public class Health : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             Heal(1);
-        }
+        }*/
     }
 
     //Function for player taking damage and changing state/size of player and running Iframes function
@@ -42,7 +43,7 @@ public class Health : MonoBehaviour
         if (isInvincible) return;
 
         currentHealth -= damage;
-        healthBar.fillAmount = currentHealth / 3f;
+      //  healthBar.fillAmount = currentHealth / 3f;
         if (currentHealth == 2)
         {
             sizeManager.ToMediumState();
@@ -67,7 +68,7 @@ public class Health : MonoBehaviour
         {
             currentHealth = maxHealth;
         }
-        healthBar.fillAmount = currentHealth / 3f;
+     //   healthBar.fillAmount = currentHealth / 3f;
 
         if (currentHealth == 2)
         {

@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class DamagePlayer : MonoBehaviour
 {
+    public CapsuleCollider2D virusDamage;
     public Health health;
    
     //When touching player, player take damage

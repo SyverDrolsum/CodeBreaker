@@ -98,10 +98,10 @@ GameObject:
   - component: {fileID: 815758854912755053}
   - component: {fileID: 6766574062421072934}
   - component: {fileID: 5976335609676713356}
-  - component: {fileID: 5859611118629316772}
   - component: {fileID: 2043394434018084419}
   - component: {fileID: 1337095577756994282}
   - component: {fileID: 4479917855059136149}
+  - component: {fileID: 3788757478606110934}
   m_Layer: 0
   m_Name: Virus 3
   m_TagString: Virus
@@ -167,55 +167,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   virusBody: {fileID: 6766574062421072934}
-  detectionRange: {fileID: 5859611118629316772}
+  detectionRange: {fileID: 5026523678594282758}
   playerDetected: 1
   moveSpeed: 1
---- !u!61 &5859611118629316772
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4252789413554015412}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.6}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.57, y: 9.53}
-    newSize: {x: 2, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 1
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 10, y: 2.5}
-  m_EdgeRadius: 0
 --- !u!70 &2043394434018084419
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -291,6 +245,20 @@ Animation:
   m_AnimatePhysics: 0
   m_UpdateMode: 0
   m_CullingType: 0
+--- !u!114 &3788757478606110934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4252789413554015412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0004d8a010ac00b408d4c89fe27b8bbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  virusDamage: {fileID: 2043394434018084419}
+  health: {fileID: 0}
 --- !u!1 &5412910966710134580
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,9 +356,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6286802756004124632}
   - component: {fileID: 1208149988251618789}
+  - component: {fileID: 5026523678594282758}
   m_Layer: 0
   m_Name: Body
-  m_TagString: Untagged
+  m_TagString: Detect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -465,3 +434,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5026523678594282758
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187441885256634647}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.6}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.42, y: 6.92}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 1
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 10, y: 2.5}
+  m_EdgeRadius: 0

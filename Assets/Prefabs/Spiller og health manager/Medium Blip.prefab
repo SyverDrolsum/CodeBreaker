@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 4769563325730382362}
   - component: {fileID: 1019811924318616335}
   - component: {fileID: 1355631421282094112}
+  - component: {fileID: -8726997188229403011}
   m_Layer: 0
   m_Name: Medium Blip
   m_TagString: Player
@@ -306,6 +307,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-8726997188229403011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901249622632234525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1bdb8ee7ffb93844a3b2729e3737149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2288104695210524921
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,7 +505,7 @@ GameObject:
   - component: {fileID: 2213147242443245344}
   m_Layer: 0
   m_Name: medium Blip body
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
