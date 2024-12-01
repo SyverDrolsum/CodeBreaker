@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     {
         
         Flip();
+        //For animations to run correctly
         anim.SetBool("isRunning", horizontal != 0);
 
         if (IsGrounded())
@@ -43,11 +44,13 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
     }
 
+    //Checks if the player is touching the ground
     private bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
+    //Flips the player when changing direction
     private void Flip()
     {
         if ((horizontal > 0f && !isFacingRight) || (horizontal < 0f && isFacingRight))
@@ -59,6 +62,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    //Player jump
     public void Jump(InputAction.CallbackContext context)
     {
         if (context.performed && IsGrounded())

@@ -36,6 +36,7 @@ public class Health : MonoBehaviour
         }
     }
 
+    //Function for player taking damage and changing state/size of player and running Iframes function
     public void TakeDamage(int damage)
     {
         if (isInvincible) return;
@@ -55,6 +56,8 @@ public class Health : MonoBehaviour
             StartCoroutine(Iframes()); 
         }
     }
+
+    //Function for healing player and changing state/size of player
 
     public void Heal(int amount)
     {
@@ -76,6 +79,7 @@ public class Health : MonoBehaviour
         }
     }
 
+    //Adding Iframes to player when daking damage
     private IEnumerator Iframes()
     {
         isInvincible = true;
