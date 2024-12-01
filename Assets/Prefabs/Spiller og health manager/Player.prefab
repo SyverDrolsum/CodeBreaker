@@ -60,7 +60,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6446efb8177b4094a947f6541c706dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 0}
   maxHealth: 3
   currentHealth: 0
-  sizeManager: {fileID: 0}
+  smallBody: {fileID: 1660547906361378407, guid: ec053076136579a4fb62885ed4963739, type: 3}
+  mediumBody: {fileID: 4769563325730382362, guid: 6755d0169b656ba47ad44195f75c83f6, type: 3}
+  sizeManager: {fileID: 2871543949949262241}

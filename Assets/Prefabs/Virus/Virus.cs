@@ -25,6 +25,8 @@ public class Virus : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Virus moves a certain amount to the right before turning around as long as a gameobject tagged
+        // Player doesn't enter it's detection trigger
         if (playerDetected == true)
         {
             if (cycle < timer)
@@ -62,6 +64,7 @@ public class Virus : MonoBehaviour
             }
         }
     }
+    //Functions to move right, left and stop.
     void VirusMoveRight()
     {
         virusBody.linearVelocity = Vector2.right * moveSpeed;
@@ -76,10 +79,11 @@ public class Virus : MonoBehaviour
     {
         virusBody.linearVelocity = Vector2.zero;
     }
-
+    //Functions that trigger to follow the object tagged Player when it enters, read it's x-value while in 
+    //the trigger and stopping when one has left.
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player")|| collision.gameObject.CompareTag("MedPlayer")||collision.gameObject.CompareTag("SmallPlayer"))
         {
             playerDetected = false;
         }
@@ -87,7 +91,7 @@ public class Virus : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player")|| collision.gameObject.CompareTag("MedPlayer")||collision.gameObject.CompareTag("SmallPlayer"))
         {
             playerDetected = true;
         }
@@ -95,7 +99,7 @@ public class Virus : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player")|| collision.gameObject.CompareTag("MedPlayer")||collision.gameObject.CompareTag("SmallPlayer"))
         {
             player_x_value = collision.transform.position.x;
         } 

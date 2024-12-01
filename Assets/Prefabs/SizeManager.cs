@@ -36,17 +36,24 @@ public class SizeManager : MonoBehaviour
         SwitchToState(normalBlip);
     }
 
+    //When switching state changes the position based on the virus position to give
+    //the illution that the player got pushed.
     private void SwitchToState(GameObject newState)
     {
-        Vector3 spawnPosition = transform.position;
-        // Destroy the current state GameObject
-        if (currentState != null)
-        {
-            //Have the current position be the new spawn position of the new state
-            spawnPosition = currentState.transform.position;
-            Destroy(currentState);
-        }
-        // Instantiate the new state
-        currentState = Instantiate(newState, spawnPosition, transform.rotation, transform);
+    Vector3 spawnPosition = transform.position;
+
+    if (currentState != null)
+    {
+        Vector3 virusPosition = GameObject.FindGameObjectWithTag("Virus").transform.position;
+        Vector3 direction = (spawnPosition - virusPosition).normalized;
+
+        Vector3 pushOffset = direction * 1.0f;
+        spawnPosition = currentState.transform.position + pushOffset;
+
+        Destroy(currentState);
     }
+    
+    currentState = Instantiate(newState, spawnPosition, transform.rotation, transform);
+    }
+
 }

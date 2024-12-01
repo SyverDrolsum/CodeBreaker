@@ -8,7 +8,10 @@ public class Health : MonoBehaviour
    // public Image healthBar;
     public int maxHealth = 3;
     public int currentHealth;
+    private Rigidbody2D pushedBody;
     private bool isInvincible = false;
+    private float virus_value;
+    private float player_value;
     
 
     public SizeManager sizeManager;
@@ -25,7 +28,7 @@ public class Health : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-        
+        //Helper functions when testing the health.
    /*     if (Input.GetKeyUp(KeyCode.Space))
         {
             TakeDamage(1);
@@ -47,10 +50,39 @@ public class Health : MonoBehaviour
         if (currentHealth == 2)
         {
             sizeManager.ToMediumState();
+            //This was an attempt to make a better way to push the player when it lost life.
+            /* 
+            virus_value = GameObject.FindGameObjectWithTag("Virus").transform.position.x;
+            player_value = GameObject.FindGameObjectWithTag("Player").transform.position.x;
+            float direction = Mathf.Sign(virus_value - player_value);
+            pushedBody = GameObject.FindGameObjectWithTag("MedPlayer").GetComponent<Rigidbody2D>();
+            if (direction > 0)
+            {
+                pushedBody.AddForce(Vector2.left * 1000, ForceMode2D.Impulse);
+            }
+            else
+            {
+                pushedBody.AddForce(Vector2.right * 1000, ForceMode2D.Impulse);
+            }*/
+
         }
         if (currentHealth == 1)
         {
             sizeManager.ToSmallState();
+            //This was an attempt to make a better way to push the player when it lost life.
+            /*
+            virus_value = GameObject.FindGameObjectWithTag("Virus").transform.position.x;
+            player_value = GameObject.FindGameObjectWithTag("MedPlayer").transform.position.x;
+            float direction = Mathf.Sign(virus_value - player_value);
+            pushedBody = GameObject.FindGameObjectWithTag("SmallPlayer").GetComponent<Rigidbody2D>();
+            if (direction > 0)
+            {
+                pushedBody.AddForce(Vector2.left * 1000, ForceMode2D.Impulse);
+            }
+            else
+            {
+                pushedBody.AddForce(Vector2.right * 1000, ForceMode2D.Impulse);
+            }*/
         }
         if (currentHealth > 0)
         {

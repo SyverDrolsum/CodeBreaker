@@ -8,7 +8,7 @@ public class DamagePlayer : MonoBehaviour
     //When touching player, player take damage
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player")|| collision.gameObject.CompareTag("MedPlayer")||collision.gameObject.CompareTag("SmallPlayer"))
         {
            health.TakeDamage(1);
         }
