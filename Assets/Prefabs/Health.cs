@@ -12,7 +12,9 @@ public class Health : MonoBehaviour
     private bool isInvincible = false;
     private float virus_value;
     private float player_value;
-    
+    [SerializeField] private AudioClip deathSound;
+    [SerializeField] private AudioClip damageSound;
+
 
     public SizeManager sizeManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -26,10 +28,11 @@ public class Health : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
+            SoundManager.instance.PlaySound(deathSound);
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         //Helper functions when testing the health.
-   /*     if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             TakeDamage(1);
         }
@@ -37,7 +40,7 @@ public class Health : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             Heal(1);
-        }*/
+        }
     }
 
     //Function for player taking damage and changing state/size of player and running Iframes function
@@ -45,10 +48,12 @@ public class Health : MonoBehaviour
     {
         if (isInvincible) return;
 
+
         currentHealth -= damage;
       //  healthBar.fillAmount = currentHealth / 3f;
         if (currentHealth == 2)
         {
+            SoundManager.instance.PlaySound(damageSound);
             sizeManager.ToMediumState();
             //This was an attempt to make a better way to push the player when it lost life.
             /* 
@@ -68,6 +73,7 @@ public class Health : MonoBehaviour
         }
         if (currentHealth == 1)
         {
+            SoundManager.instance.PlaySound(damageSound);
             sizeManager.ToSmallState();
             //This was an attempt to make a better way to push the player when it lost life.
             /*
