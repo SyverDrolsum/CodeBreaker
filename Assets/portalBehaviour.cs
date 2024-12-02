@@ -6,6 +6,9 @@ public class PortalBehaviour : MonoBehaviour
     public Transform destination;
     public SizeManager sizeManager;
 
+    [SerializeField] private AudioClip teleportSound;
+
+
     GameObject player;
 
     private bool canTeleport = false;
@@ -16,6 +19,7 @@ public class PortalBehaviour : MonoBehaviour
         //When player touches portal and W is pressed, teleport to other portal
         if(canTeleport && Input.GetKeyUp(KeyCode.W))
         {
+            SoundManager.instance.PlaySound(teleportSound);
             player = sizeManager.Player;
             player.transform.position = destination.transform.position;
         }

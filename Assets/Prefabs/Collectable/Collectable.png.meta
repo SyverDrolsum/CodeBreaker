@@ -109,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 613bb633-e889-484f-8b70-eacbe1d1968b_0
+      name: Collectable_0
       rect:
         serializedVersion: 2
-        x: 489
-        y: 1921
-        width: 353
-        height: 342
+        x: 1097
+        y: 737
+        width: 203
+        height: 207
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63c95e21facf8a7498c5ac2d74669fba
-      internalID: 40527747
+      spriteID: 065c53031426f1d489243de3318b6f62
+      internalID: 619173922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 613bb633-e889-484f-8b70-eacbe1d1968b_1
+      name: Collectable_1
       rect:
         serializedVersion: 2
-        x: 1549
-        y: 1813
-        width: 1323
-        height: 351
+        x: 1230
+        y: 958
+        width: 7
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5a1ccbf3b1a5fc4b80537a5c36afb01
-      internalID: 2030328147
+      spriteID: c73e4897ea2287d4a819c33aaec01614
+      internalID: 520062682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 613bb633-e889-484f-8b70-eacbe1d1968b_2
+      name: Collectable_2
       rect:
         serializedVersion: 2
-        x: 780
-        y: 1315
-        width: 147
-        height: 210
+        x: 1097
+        y: 765
+        width: 6
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bff0292efcf0ecd45a36d30cc715227c
-      internalID: -1968622995
+      spriteID: 3b2fdc9d646951f4e986907ce34a35ab
+      internalID: -232715239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 613bb633-e889-484f-8b70-eacbe1d1968b_3
+      name: Collectable_3
       rect:
         serializedVersion: 2
-        x: 1597
-        y: 1195
-        width: 411
-        height: 244
+        x: 1199
+        y: 726
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,8 +190,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c002ed3366e2eff4c9a1b1f1a4918ae4
-      internalID: 1537515804
+      spriteID: 46f87bfa64e053e4e9d3a2a38964d0d4
+      internalID: -178100292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectable_4
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 714
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a457f1abdf0064ebbe28d2ea201e2b
+      internalID: -1220508335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectable_5
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 679
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d88d0143c617c46b48e36a60a7ac37
+      internalID: -970440996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Collectable_6
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 674
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaed5194bca031e48bb93ae634cde345
+      internalID: 1519733578
       vertices: []
       indices: 
       edges: []
@@ -210,10 +276,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      613bb633-e889-484f-8b70-eacbe1d1968b_0: 40527747
-      613bb633-e889-484f-8b70-eacbe1d1968b_1: 2030328147
-      613bb633-e889-484f-8b70-eacbe1d1968b_2: -1968622995
-      613bb633-e889-484f-8b70-eacbe1d1968b_3: 1537515804
+      Collectable_0: 619173922
+      Collectable_1: 520062682
+      Collectable_2: -232715239
+      Collectable_3: -178100292
+      Collectable_4: -1220508335
+      Collectable_5: -970440996
+      Collectable_6: 1519733578
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

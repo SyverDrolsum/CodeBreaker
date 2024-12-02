@@ -139,3 +139,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: {fileID: 6196576722492919675, guid: e68e3d01d1c34da4eb330c8cc5a3b809, type: 3}
+  rechargeSound: {fileID: 8300000, guid: 6d9ee2d7ad6dc4c4fb0ee41999a5759b, type: 3}
