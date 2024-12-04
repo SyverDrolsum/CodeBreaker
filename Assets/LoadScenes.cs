@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LoadScenes : MonoBehaviour
 {
-    [SerializeField] private string levelMapScene = "Level_Map";
-    [SerializeField] private string loadGameScene = "Load_Scene";
+    [SerializeField] private string levelMapScene = "LevelSelection";
+    [SerializeField] private string loadGameScene = "LoadScene";
     [SerializeField] private string settingsScene = "Settings_Scene";
 
     public void NewGame()
