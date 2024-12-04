@@ -1,8 +1,10 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;        //reference to pause menu GameObject
+    [SerializeField] private string sceneName;      //name of the scene to load
 
     void Start()
     {
@@ -33,7 +35,7 @@ public class PauseMenu : MonoBehaviour
     //function to quit application
     public void quit()
     {
-        Application.Quit();     //close game
+        SceneManager.LoadScene(sceneName);
     }
 
     //function to resume game

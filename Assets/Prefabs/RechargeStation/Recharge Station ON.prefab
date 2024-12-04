@@ -266,9 +266,9 @@ GameObject:
   - component: {fileID: 7050224023527259957}
   - component: {fileID: 8125208076450923310}
   - component: {fileID: 1772432887208709024}
-  - component: {fileID: 87170711536807557}
+  - component: {fileID: 1646403250123983482}
   m_Layer: 0
-  m_Name: Recharge Station
+  m_Name: Recharge Station ON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -378,14 +378,14 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 2.51, y: 2.99}
+  m_Offset: {x: -0.15829104, y: -0.005653262}
+  m_Size: {x: 1.3341244, y: 2.0967867}
   m_Direction: 0
---- !u!114 &87170711536807557
+--- !u!114 &1646403250123983482
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3ff2820dc626f34d8f60aedcfdf532a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: {fileID: 6196576722492919675, guid: e68e3d01d1c34da4eb330c8cc5a3b809, type: 3}
+  health: {fileID: 0}
   rechargeSound: {fileID: 8300000, guid: 6d9ee2d7ad6dc4c4fb0ee41999a5759b, type: 3}
 --- !u!1 &7623622430521918193
 GameObject:
