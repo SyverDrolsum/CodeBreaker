@@ -143,8 +143,8 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 5
-  m_Material: {fileID: 0}
+  m_GravityScale: 14.96
+  m_Material: {fileID: 6200000, guid: 9e2fb6ab249de344fa88c910bcdd52ab, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -170,7 +170,6 @@ MonoBehaviour:
   virusBody: {fileID: 6766574062421072934}
   detectionRange: {fileID: 5026523678594282758}
   playerDetected: 1
-  moveSpeed: 1
 --- !u!70 &2043394434018084419
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -258,7 +257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0004d8a010ac00b408d4c89fe27b8bbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  virusDamage: {fileID: 2043394434018084419}
   health: {fileID: 0}
 --- !u!1 &4529479441959989596
 GameObject:

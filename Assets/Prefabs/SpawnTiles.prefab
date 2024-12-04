@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4180674730495276797}
   - component: {fileID: 4453414953289115522}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnTiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 8582755473676778674}
   - component: {fileID: 6983974500814891082}
   - component: {fileID: 6803728336227822348}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
