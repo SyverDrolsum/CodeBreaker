@@ -71,7 +71,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
             anim.SetTrigger("takeOff");
-//            SoundManager.instance.PlaySound(jumpSound);
+            SoundManager.instance.PlaySound(jumpSound);
         }
 
         if (context.canceled && rb.linearVelocity.y > 0f)

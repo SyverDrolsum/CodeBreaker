@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-   // public Image healthBar;
+    public Image healthBar;
     public int maxHealth = 3;
     public int currentHealth;
   //  private Rigidbody2D pushedBody; //Not used
@@ -30,7 +30,7 @@ public class Health : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
-//            SoundManager.instance.PlaySound(deathSound);
+            SoundManager.instance.PlaySound(deathSound);
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         //Helper functions when testing the health.
@@ -52,10 +52,10 @@ public class Health : MonoBehaviour
 
 
         currentHealth -= damage;
-      //  healthBar.fillAmount = currentHealth / 3f;
+        healthBar.fillAmount = currentHealth / 3f;
         if (currentHealth == 2)
         {
-      //      SoundManager.instance.PlaySound(damageSound);
+            SoundManager.instance.PlaySound(damageSound);
             sizeManager.ToMediumState();
             //This was an attempt to make a better way to push the player when it lost life.
             /* 
@@ -75,7 +75,7 @@ public class Health : MonoBehaviour
         }
         if (currentHealth == 1)
         {
-        //    SoundManager.instance.PlaySound(damageSound);
+            SoundManager.instance.PlaySound(damageSound);
             sizeManager.ToSmallState();
             //This was an attempt to make a better way to push the player when it lost life.
             /*
@@ -108,7 +108,7 @@ public class Health : MonoBehaviour
         {
             currentHealth = maxHealth;
         }
-     //   healthBar.fillAmount = currentHealth / 3f;
+        healthBar.fillAmount = currentHealth / 3f;
 
         if (currentHealth == 2)
         {
