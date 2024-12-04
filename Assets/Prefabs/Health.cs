@@ -28,7 +28,7 @@ public class Health : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
-            SoundManager.instance.PlaySound(deathSound);
+//            SoundManager.instance.PlaySound(deathSound);
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         //Helper functions when testing the health.
@@ -53,7 +53,7 @@ public class Health : MonoBehaviour
       //  healthBar.fillAmount = currentHealth / 3f;
         if (currentHealth == 2)
         {
-            SoundManager.instance.PlaySound(damageSound);
+      //      SoundManager.instance.PlaySound(damageSound);
             sizeManager.ToMediumState();
             //This was an attempt to make a better way to push the player when it lost life.
             /* 
@@ -73,7 +73,7 @@ public class Health : MonoBehaviour
         }
         if (currentHealth == 1)
         {
-            SoundManager.instance.PlaySound(damageSound);
+        //    SoundManager.instance.PlaySound(damageSound);
             sizeManager.ToSmallState();
             //This was an attempt to make a better way to push the player when it lost life.
             /*

@@ -62,6 +62,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   currentHealth: 0
-  smallBody: {fileID: 1660547906361378407, guid: ec053076136579a4fb62885ed4963739, type: 3}
-  mediumBody: {fileID: 4769563325730382362, guid: 6755d0169b656ba47ad44195f75c83f6, type: 3}
-  sizeManager: {fileID: 2871543949949262241}
+  deathSound: {fileID: 0}
+  damageSound: {fileID: 0}
+  sizeManager: {fileID: 0}

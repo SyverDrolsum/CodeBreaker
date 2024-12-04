@@ -44,12 +44,18 @@ public class SizeManager : MonoBehaviour
 
     if (currentState != null)
     {
+        if (GameObject.FindGameObjectWithTag("Virus") != null)
+        {
         Vector3 virusPosition = GameObject.FindGameObjectWithTag("Virus").transform.position;
         Vector3 direction = (spawnPosition - virusPosition).normalized;
 
         Vector3 pushOffset = direction * 1.0f;
         spawnPosition = currentState.transform.position + pushOffset;
-
+        }
+        else
+        {
+            spawnPosition = currentState.transform.position;
+        }
         Destroy(currentState);
     }
     
