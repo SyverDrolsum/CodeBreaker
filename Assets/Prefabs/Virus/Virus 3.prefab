@@ -142,7 +142,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -259,6 +259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   virusDamage: {fileID: 2043394434018084419}
   health: {fileID: 0}
+  playerObject: {fileID: 2371281185664372029, guid: 80a1a7be75c74db41a447c7b8d302caa, type: 3}
 --- !u!1 &5412910966710134580
 GameObject:
   m_ObjectHideFlags: 0

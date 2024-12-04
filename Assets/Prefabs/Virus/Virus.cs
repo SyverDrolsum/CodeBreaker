@@ -31,7 +31,7 @@ public class Virus : MonoBehaviour
         {
             if (cycle < timer)
             {
-                anim.SetBool("isMoving", true);
+                    anim.SetBool("isMoving", true);
                 VirusMoveRight();
                 cycle += Time.deltaTime;
             }
