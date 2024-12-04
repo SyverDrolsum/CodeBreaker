@@ -53,7 +53,7 @@ public class LeverScript : MonoBehaviour
 
     private void ActivateLever()
     {
-        destroyWhenDone.DestroyPopUp();
+        //destroyWhenDone.DestroyPopUp();
         isActive = true;
         Debug.Log("Lever activated! Platforms spawned.");
 
