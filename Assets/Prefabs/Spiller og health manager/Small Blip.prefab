@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 8273211051625910463}
   m_Layer: 0
   m_Name: Small Blip
-  m_TagString: SmallPlayer
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 5024536939519338819}
   m_Layer: 0
   m_Name: small Blip head
-  m_TagString: SmallPlayer
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
