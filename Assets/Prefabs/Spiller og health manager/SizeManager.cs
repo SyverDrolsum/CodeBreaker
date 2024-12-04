@@ -50,6 +50,7 @@ public class SizeManager : MonoBehaviour
         Vector3 direction = (spawnPosition - virusPosition).normalized;
 
         Vector3 pushOffset = direction * 1.0f;
+       // Vector3 upOffset = Vector3.up * 0.1f;
         spawnPosition = currentState.transform.position + pushOffset;
         }
         else
