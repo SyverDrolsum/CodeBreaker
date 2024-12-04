@@ -285,6 +285,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &112829226 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2034645078009011524, guid: 78a089b950c914e4ebfa0f122f1ad439, type: 3}
+  m_PrefabInstance: {fileID: 5123293290668424634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &112829230
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112829226}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &150579677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4625,6 +4676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shutter+Button
       objectReference: {fileID: 0}
+    - target: {fileID: 1448701846841336349, guid: 78a089b950c914e4ebfa0f122f1ad439, type: 3}
+      propertyPath: closeDelay
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4035992952968071534, guid: 78a089b950c914e4ebfa0f122f1ad439, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4632,7 +4687,7 @@ PrefabInstance:
     - target: {fileID: 5698377426419131512, guid: 78a089b950c914e4ebfa0f122f1ad439, type: 3}
       propertyPath: shutter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 112829226}
     - target: {fileID: 6413787452690658883, guid: 78a089b950c914e4ebfa0f122f1ad439, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5364305
@@ -4711,7 +4766,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8056463311539334620, guid: 78a089b950c914e4ebfa0f122f1ad439, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1399077230}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2034645078009011524, guid: 78a089b950c914e4ebfa0f122f1ad439, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 112829230}
   m_SourcePrefab: {fileID: 100100000, guid: 78a089b950c914e4ebfa0f122f1ad439, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
