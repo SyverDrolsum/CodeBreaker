@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 1355631421282094112}
   m_Layer: 0
   m_Name: Medium Blip
-  m_TagString: MedPlayer
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 2213147242443245344}
   m_Layer: 0
   m_Name: medium Blip body
-  m_TagString: MedPlayer
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -4,19 +4,20 @@ public class DamagePlayer : MonoBehaviour
 {
     public CapsuleCollider2D virusDamage;
     public Health health;
-    public GameObject playerObject;
+    private GameObject targetObject;
 
     void Start()
     {
-        health = playerObject.GetComponent<Health>();
+        targetObject = GameObject.FindGameObjectWithTag("Player");
+        health = targetObject.GetComponent<Health>();
     }
-   
+
     //When touching player, player take damage
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-           health.TakeDamage(1);
+            health.TakeDamage(1);
         }
     }
 }
