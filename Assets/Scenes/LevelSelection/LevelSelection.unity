@@ -510,10 +510,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  redLight: {fileID: 1363009069, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  organgeLight: {fileID: -895974451, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  greenLight: {fileID: -1205802775, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
+  lockedColor: {r: 1, g: 1, b: 1, a: 0.5}
+  currentColor: {r: 1, g: 1, b: 1, a: 1}
+  finishedColor: {r: 1, g: 1, b: 1, a: 0.75}
   lightIndicator: {fileID: 96928400}
+  levelIcon: {fileID: 0}
   levelButton: {fileID: 156309463}
 --- !u!1 &289114644
 GameObject:
@@ -640,7 +641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.54901963}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -715,7 +716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.54901963}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -902,10 +903,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  redLight: {fileID: 1363009069, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  organgeLight: {fileID: -895974451, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  greenLight: {fileID: -1205802775, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
+  lockedColor: {r: 1, g: 1, b: 1, a: 0.5}
+  currentColor: {r: 1, g: 1, b: 1, a: 1}
+  finishedColor: {r: 1, g: 1, b: 1, a: 0.75}
   lightIndicator: {fileID: 1499487880}
+  levelIcon: {fileID: 0}
   levelButton: {fileID: 510386316}
 --- !u!1 &510453427
 GameObject:
@@ -1068,11 +1070,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299fd6c157af6674b846c13230171c81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentState: 2
-  redLight: {fileID: 1363009069, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  organgeLight: {fileID: -895974451, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  greenLight: {fileID: -1205802775, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
+  currentState: 1
+  lockedColor: {r: 1, g: 1, b: 1, a: 0.5}
+  currentColor: {r: 1, g: 1, b: 1, a: 1}
+  finishedColor: {r: 1, g: 1, b: 1, a: 0.75}
   lightIndicator: {fileID: 40460922}
+  levelIcon: {fileID: 1467640283}
   levelButton: {fileID: 510453430}
 --- !u!1 &519420028
 GameObject:
@@ -1447,11 +1450,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299fd6c157af6674b846c13230171c81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentState: 1
-  redLight: {fileID: 1363009069, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  organgeLight: {fileID: -895974451, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  greenLight: {fileID: -1205802775, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
+  currentState: 0
+  lockedColor: {r: 1, g: 1, b: 1, a: 0.5}
+  currentColor: {r: 1, g: 1, b: 1, a: 1}
+  finishedColor: {r: 1, g: 1, b: 1, a: 0.75}
   lightIndicator: {fileID: 977128355}
+  levelIcon: {fileID: 1052158112}
   levelButton: {fileID: 928553598}
 --- !u!1 &977128353
 GameObject:
@@ -1578,7 +1582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.54901963}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1867,10 +1871,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  redLight: {fileID: 1363009069, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  organgeLight: {fileID: -895974451, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  greenLight: {fileID: -1205802775, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
+  lockedColor: {r: 1, g: 1, b: 1, a: 0.5}
+  currentColor: {r: 1, g: 1, b: 1, a: 1}
+  finishedColor: {r: 1, g: 1, b: 1, a: 0.75}
   lightIndicator: {fileID: 1332221688}
+  levelIcon: {fileID: 0}
   levelButton: {fileID: 1309038459}
 --- !u!1 &1329269071
 GameObject:
@@ -2049,7 +2054,7 @@ RectTransform:
   m_GameObject: {fileID: 1467640281}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.69444436, y: 0.1342282, z: 1}
+  m_LocalScale: {x: 0.69444436, y: 0.14429532, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 510453428}
@@ -2222,7 +2227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.54901963}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2493,10 +2498,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  redLight: {fileID: 1363009069, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  organgeLight: {fileID: -895974451, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  greenLight: {fileID: -1205802775, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
+  lockedColor: {r: 1, g: 1, b: 1, a: 0.5}
+  currentColor: {r: 1, g: 1, b: 1, a: 1}
+  finishedColor: {r: 1, g: 1, b: 1, a: 0.75}
   lightIndicator: {fileID: 289114646}
+  levelIcon: {fileID: 1517088401}
   levelButton: {fileID: 1845142239}
 --- !u!1 &1903105586
 GameObject:
@@ -2806,10 +2812,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  redLight: {fileID: 1363009069, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  organgeLight: {fileID: -895974451, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  greenLight: {fileID: -1205802775, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
+  lockedColor: {r: 1, g: 1, b: 1, a: 0.5}
+  currentColor: {r: 1, g: 1, b: 1, a: 1}
+  finishedColor: {r: 1, g: 1, b: 1, a: 0.75}
   lightIndicator: {fileID: 1329269073}
+  levelIcon: {fileID: 0}
   levelButton: {fileID: 1921427805}
 --- !u!1 &1980633815
 GameObject:
@@ -2861,7 +2868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.54901963}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3048,10 +3055,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  redLight: {fileID: 1363009069, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  organgeLight: {fileID: -895974451, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
-  greenLight: {fileID: -1205802775, guid: 948bcf3cb2f35364f8b485a9ab047abc, type: 3}
+  lockedColor: {r: 1, g: 1, b: 1, a: 0.5}
+  currentColor: {r: 1, g: 1, b: 1, a: 1}
+  finishedColor: {r: 1, g: 1, b: 1, a: 0.75}
   lightIndicator: {fileID: 909464973}
+  levelIcon: {fileID: 1980633817}
   levelButton: {fileID: 2006684783}
 --- !u!1 &2019002418
 GameObject:
@@ -3103,7 +3111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.54901963}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3178,7 +3186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.54901963}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

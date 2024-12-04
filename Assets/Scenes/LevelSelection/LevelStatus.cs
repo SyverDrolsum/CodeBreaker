@@ -11,6 +11,7 @@ public class LevelStatus : MonoBehaviour
     public Color finishedColor = new Color(1, 1, 1, 0.75f); // Semi-transparent for finished
 
     public Image lightIndicator;        //UI image for the light indicator
+    public Image levelIcon;
     public Button levelButton;      //reference to the button component 
 
     void Start()
@@ -42,6 +43,7 @@ public class LevelStatus : MonoBehaviour
         if (lightIndicator != null)
         {
             lightIndicator.color = color; // Set the color/opacity of the level icon
+            levelIcon.color = color;
         }
 
         if (levelButton != null)
