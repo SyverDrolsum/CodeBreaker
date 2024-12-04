@@ -5,19 +5,27 @@ public class RechargeStationBehaviour : MonoBehaviour
     public Health health;
     [SerializeField] private AudioClip rechargeSound;
     private GameObject targetObject;
-
+    private bool is_active = true;
   
-    //When Player touches rechargeStation, the station disappears and heals player
-    private void OnTriggerEnter2D(Collider2D collision)
+    //When Player touches rechargeStation, the station turns off and heals player
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && is_active == true)
         {
             targetObject = GameObject.FindGameObjectWithTag("Player");
             health = targetObject.GetComponent<Health>();
 //            SoundManager.instance.PlaySound(rechargeSound);
-            Destroy(gameObject);
+            RemoveAllLights(gameObject);
+            is_active = false;
             health.Heal(1);
 
+        }
+    }
+    void RemoveAllLights(GameObject targetObject)
+    {
+        foreach (Transform child in transform)
+        {
+            Destroy(child.gameObject);
         }
     }
 }
