@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: e3ff2820dc626f34d8f60aedcfdf532a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - health: {instanceID: 0}
+  - rechargeSound: {fileID: 8300000, guid: 6d9ee2d7ad6dc4c4fb0ee41999a5759b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
