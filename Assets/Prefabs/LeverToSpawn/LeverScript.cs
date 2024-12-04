@@ -7,6 +7,8 @@ public class LeverScript : MonoBehaviour
     private bool isActive = false;
     private bool playerInRange = false;
     public DestroyWhenDone destroyWhenDone = null;
+    [SerializeField] private AudioClip leverSound;
+
 
     private Animator anim;
 
@@ -23,6 +25,7 @@ public class LeverScript : MonoBehaviour
         {
             ActivateLever();        //trigger lever
             anim.SetTrigger("isPulled");       //play lever animation
+            SoundManager.instance.PlaySound(leverSound);
         }
     }
 
@@ -33,6 +36,8 @@ public class LeverScript : MonoBehaviour
         {
             playerInRange = true;
             Debug.Log("Player entered lever range.");
+            SoundManager.instance.PlaySound(leverSound);
+
         }
     }
 
