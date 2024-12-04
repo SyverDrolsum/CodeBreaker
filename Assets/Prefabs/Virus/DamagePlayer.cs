@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class DamagePlayer : MonoBehaviour
 {
-    public CapsuleCollider2D virusDamage;
     public Health health;
     private GameObject targetObject;
 
