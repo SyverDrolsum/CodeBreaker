@@ -8,7 +8,7 @@ public class Health : MonoBehaviour
    // public Image healthBar;
     public int maxHealth = 3;
     public int currentHealth;
-    private Rigidbody2D pushedBody;
+  //  private Rigidbody2D pushedBody; //Not used
     private bool isInvincible = false;
     private float virus_value;
     private float player_value;
