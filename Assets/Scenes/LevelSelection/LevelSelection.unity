@@ -514,7 +514,7 @@ MonoBehaviour:
   currentColor: {r: 1, g: 1, b: 1, a: 1}
   finishedColor: {r: 1, g: 1, b: 1, a: 0.75}
   lightIndicator: {fileID: 96928400}
-  levelIcon: {fileID: 0}
+  levelIcon: {fileID: 2019002420}
   levelButton: {fileID: 156309463}
 --- !u!1 &289114644
 GameObject:
@@ -907,7 +907,7 @@ MonoBehaviour:
   currentColor: {r: 1, g: 1, b: 1, a: 1}
   finishedColor: {r: 1, g: 1, b: 1, a: 0.75}
   lightIndicator: {fileID: 1499487880}
-  levelIcon: {fileID: 0}
+  levelIcon: {fileID: 507437924}
   levelButton: {fileID: 510386316}
 --- !u!1 &510453427
 GameObject:
@@ -1875,7 +1875,7 @@ MonoBehaviour:
   currentColor: {r: 1, g: 1, b: 1, a: 1}
   finishedColor: {r: 1, g: 1, b: 1, a: 0.75}
   lightIndicator: {fileID: 1332221688}
-  levelIcon: {fileID: 0}
+  levelIcon: {fileID: 2102834398}
   levelButton: {fileID: 1309038459}
 --- !u!1 &1329269071
 GameObject:
@@ -2816,7 +2816,7 @@ MonoBehaviour:
   currentColor: {r: 1, g: 1, b: 1, a: 1}
   finishedColor: {r: 1, g: 1, b: 1, a: 0.75}
   lightIndicator: {fileID: 1329269073}
-  levelIcon: {fileID: 0}
+  levelIcon: {fileID: 369580334}
   levelButton: {fileID: 1921427805}
 --- !u!1 &1980633815
 GameObject:

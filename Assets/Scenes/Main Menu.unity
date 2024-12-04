@@ -519,7 +519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fd1cdf57bae06840be0d2b4c203bc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sceneName: Settings
 --- !u!114 &254500850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1008,7 +1008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelMapScene: LevelSelection
-  loadGameScene: LoadScene
+  loadGameScene: LoadGame
   settingsScene: Settings_Scene
 --- !u!1 &1814468511
 GameObject:
