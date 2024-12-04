@@ -41,7 +41,7 @@ public class SizeManager : MonoBehaviour
     private void SwitchToState(GameObject newState)
     {
     Vector3 spawnPosition = transform.position;
-
+        
     if (currentState != null)
     {
         Vector3 virusPosition = GameObject.FindGameObjectWithTag("Virus").transform.position;

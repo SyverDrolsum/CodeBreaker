@@ -2509,11 +2509,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4399775266655690788, guid: 80a1a7be75c74db41a447c7b8d302caa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.45582998
+      value: 7.79
       objectReference: {fileID: 0}
     - target: {fileID: 4399775266655690788, guid: 80a1a7be75c74db41a447c7b8d302caa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3822837
+      value: 2.87
       objectReference: {fileID: 0}
     - target: {fileID: 4399775266655690788, guid: 80a1a7be75c74db41a447c7b8d302caa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2590,6 +2590,23 @@ Transform:
   - {fileID: 1983703832}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1410873670 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7005378668644276710, guid: 3bf1431d7799b9447858c74a7860184e, type: 3}
+  m_PrefabInstance: {fileID: 5271124627872710254}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1410873672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410873670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a0e72fcf6d73f4b9e0acc26b4f3997, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1466390653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2790,6 +2807,22 @@ PrefabInstance:
     - target: {fileID: 1830631357120943078, guid: bdfa0973d92312940a235e4b1de653e6, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752640887869733729, guid: bdfa0973d92312940a235e4b1de653e6, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 3.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752640887869733729, guid: bdfa0973d92312940a235e4b1de653e6, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 3.4503694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752640887869733729, guid: bdfa0973d92312940a235e4b1de653e6, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752640887869733729, guid: bdfa0973d92312940a235e4b1de653e6, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 3.4503694
       objectReference: {fileID: 0}
     - target: {fileID: 4637852217975218746, guid: bdfa0973d92312940a235e4b1de653e6, type: 3}
       propertyPath: m_Size.x
@@ -3396,6 +3429,10 @@ PrefabInstance:
       value: -0.38
       objectReference: {fileID: 0}
     - target: {fileID: 5370193029114304693, guid: a243b3380cb682a49a25a69e7155d401, type: 3}
+      propertyPath: destroyWhenDone
+      value: 
+      objectReference: {fileID: 1410873672}
+    - target: {fileID: 5370193029114304693, guid: a243b3380cb682a49a25a69e7155d401, type: 3}
       propertyPath: 'spawnPoints.Array.data[0]'
       value: 
       objectReference: {fileID: 1864570289}
@@ -3514,7 +3551,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7005378668644276710, guid: 3bf1431d7799b9447858c74a7860184e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1410873672}
   m_SourcePrefab: {fileID: 100100000, guid: 3bf1431d7799b9447858c74a7860184e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

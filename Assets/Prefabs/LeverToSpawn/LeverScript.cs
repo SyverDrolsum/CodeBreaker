@@ -6,6 +6,7 @@ public class LeverScript : MonoBehaviour
     public Transform[] spawnPoints;     //spawn points where platforms appear
     private bool isActive = false;
     private bool playerInRange = false;
+    public DestroyWhenDone destroyWhenDone = null;
 
     private Animator anim;
 
@@ -47,6 +48,7 @@ public class LeverScript : MonoBehaviour
 
     private void ActivateLever()
     {
+        destroyWhenDone.DestroyPopUp();
         isActive = true;
         Debug.Log("Lever activated! Platforms spawned.");
 
