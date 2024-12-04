@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: tile8_0
+  m_Name: scifi_platformTiles_32x32_86
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 993539706330351657, guid: 114f960071c47d34fa392d028c593471, type: 3}
-  m_Color: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 1}
+  m_Sprite: {fileID: 1391335983, guid: a653a0ef80a87b7498e2598051a27a19, type: 3}
+  m_Color: {r: 0.054901965, g: 0.07058824, b: 0.08627451, a: 1}
   m_Transform:
     e00: 1
     e01: 0
