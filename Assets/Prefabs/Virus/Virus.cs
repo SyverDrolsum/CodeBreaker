@@ -7,8 +7,8 @@ public class Virus : MonoBehaviour
     public Rigidbody2D virusBody;
     public BoxCollider2D detectionRange;
     public bool playerDetected = true;
-    public float moveSpeed;
-    private float timer = 10;
+    private float moveSpeed = 3;
+    private float timer = 2;
     private float cycle = 0;
     private float cycle2 = 10;
     private float player_x_value;
