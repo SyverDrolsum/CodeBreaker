@@ -1360,7 +1360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8041096852727797077, guid: f664af08d0dcd0c4ca608d600849cb18, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9000612403625925397, guid: f664af08d0dcd0c4ca608d600849cb18, type: 3}
       propertyPath: textPanels.Array.size
