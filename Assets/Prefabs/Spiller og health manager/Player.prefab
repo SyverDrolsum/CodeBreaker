@@ -63,6 +63,6 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   maxHealth: 3
   currentHealth: 0
-  deathSound: {fileID: 8300000, guid: 09c58de24b324f647ad70863e39b52bb, type: 3}
-  damageSound: {fileID: 8300000, guid: 44ef1720418c7134bbb37f98c32708d6, type: 3}
+  deathSound: {fileID: 8300000, guid: 664b4b6474310064f9d4f041abaad908, type: 3}
+  damageSound: {fileID: 8300000, guid: e964cf1130050cf4d9031e0a789ade10, type: 3}
   sizeManager: {fileID: 2871543949949262241}
