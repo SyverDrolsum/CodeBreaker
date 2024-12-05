@@ -1204,7 +1204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8041096852727797077, guid: f664af08d0dcd0c4ca608d600849cb18, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9000612403625925397, guid: f664af08d0dcd0c4ca608d600849cb18, type: 3}
       propertyPath: textPanels.Array.size
@@ -6575,17 +6575,17 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1063387993}
-  - {fileID: 1131723664}
   - {fileID: 4510303}
   - {fileID: 519420032}
+  - {fileID: 1063387993}
+  - {fileID: 1131723664}
+  - {fileID: 285016990}
   - {fileID: 4413499119496575053}
   - {fileID: 5271124627872710254}
   - {fileID: 632806001}
   - {fileID: 1864570289}
   - {fileID: 1779159785}
   - {fileID: 1343744709}
-  - {fileID: 285016990}
   - {fileID: 456635031}
   - {fileID: 735031295}
   - {fileID: 1025975233}

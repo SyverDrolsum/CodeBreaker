@@ -2418,6 +2418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: New Professor Help Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8041096852727797077, guid: f664af08d0dcd0c4ca608d600849cb18, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9000612403625925397, guid: f664af08d0dcd0c4ca608d600849cb18, type: 3}
       propertyPath: textPanels.Array.size
       value: 2
@@ -5181,10 +5185,10 @@ SpriteRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 451888035}
-  - {fileID: 342093157}
   - {fileID: 4510303}
   - {fileID: 519420032}
+  - {fileID: 342093157}
+  - {fileID: 451888035}
   - {fileID: 2041456556}
   - {fileID: 1728957301}
   - {fileID: 504010857}
