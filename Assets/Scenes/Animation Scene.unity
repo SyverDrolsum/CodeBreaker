@@ -131,6 +131,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medium Blip
       objectReference: {fileID: 0}
+    - target: {fileID: 3823928341792767149, guid: 6755d0169b656ba47ad44195f75c83f6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823928341792767149, guid: 6755d0169b656ba47ad44195f75c83f6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823928341792767149, guid: 6755d0169b656ba47ad44195f75c83f6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823928341792767149, guid: 6755d0169b656ba47ad44195f75c83f6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823928341792767149, guid: 6755d0169b656ba47ad44195f75c83f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 5679149264725720592, guid: 6755d0169b656ba47ad44195f75c83f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -279,11 +299,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4072358451765311618, guid: ec053076136579a4fb62885ed4963739, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.261
       objectReference: {fileID: 0}
     - target: {fileID: 4072358451765311618, guid: ec053076136579a4fb62885ed4963739, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.144
       objectReference: {fileID: 0}
     - target: {fileID: 4072358451765311618, guid: ec053076136579a4fb62885ed4963739, type: 3}
       propertyPath: m_LocalPosition.z
