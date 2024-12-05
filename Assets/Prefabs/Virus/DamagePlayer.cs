@@ -1,9 +1,12 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DamagePlayer : MonoBehaviour
 {
     public Health health;
     private GameObject targetObject;
+
+    public UnityEvent<GameObject> onDamagedBy;
 
     void Start()
     {
@@ -17,6 +20,7 @@ public class DamagePlayer : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             health.TakeDamage(1);
+            onDamagedBy?.Invoke(gameObject);
         }
     }
 }

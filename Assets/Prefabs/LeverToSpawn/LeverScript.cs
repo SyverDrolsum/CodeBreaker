@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LeverScript : MonoBehaviour
 {
@@ -8,6 +10,9 @@ public class LeverScript : MonoBehaviour
     private bool playerInRange = false;
     public DestroyWhenDone destroyWhenDone = null;
     [SerializeField] private AudioClip leverSound;
+
+    public UnityEvent onPlayerEnteredTriggerArea;
+    public UnityEvent<bool> onLeverFlipped;
 
 
     private Animator anim;
@@ -26,6 +31,7 @@ public class LeverScript : MonoBehaviour
             ActivateLever();        //trigger lever
             anim.SetTrigger("isPulled");       //play lever animation
             SoundManager.instance.PlaySound(leverSound);
+            onLeverFlipped?.Invoke(isActive);
         }
     }
 
@@ -36,8 +42,7 @@ public class LeverScript : MonoBehaviour
         {
             playerInRange = true;
             Debug.Log("Player entered lever range.");
-            SoundManager.instance.PlaySound(leverSound);
-
+            onPlayerEnteredTriggerArea?.Invoke();
         }
     }
 

@@ -1,7 +1,10 @@
+using System;
 using UnityEngine;
 
 public class CollectableBehaviour : MonoBehaviour
 {
+    public static event Action<CollectableBehaviour> OnCollected;
+
     public static int collectableCount = 0;
     [SerializeField] private AudioClip collectableSound;
 
@@ -13,6 +16,7 @@ public class CollectableBehaviour : MonoBehaviour
         {
             SoundManager.instance.PlaySound(collectableSound);
             collectableCount++;
+            OnCollected?.Invoke(this);
             Destroy(gameObject);
         }
     }

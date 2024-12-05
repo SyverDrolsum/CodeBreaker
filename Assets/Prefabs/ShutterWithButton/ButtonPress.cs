@@ -8,6 +8,8 @@ public class ButtonPress : MonoBehaviour
     private ShutterController shutterController;        //reference to the script attached to the shutter
   //  public float shutterCloseDelay = 3f;
 
+    [SerializeField] private AudioClip buttonSound;
+
     void Start()
     {
         //store original scale
@@ -26,7 +28,7 @@ private void OnTriggerEnter2D(Collider2D other)
         if(other.CompareTag("Player"))
         {
             transform.localScale = pressedScale;        //change buttons scale 
-
+            SoundManager.instance.PlaySound(buttonSound);
             shutterController.OpenShutter();        //open shutter using the ShutterController
         }
     }

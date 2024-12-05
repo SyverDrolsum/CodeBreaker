@@ -34,7 +34,7 @@ public class Health : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         //Helper functions when testing the health.
-        if (Input.GetKeyUp(KeyCode.LeftControl))
+       /* if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             TakeDamage(1);
         }
@@ -42,7 +42,7 @@ public class Health : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             Heal(1);
-        }
+        }*/
     }
 
     //Function for player taking damage and changing state/size of player and running Iframes function
