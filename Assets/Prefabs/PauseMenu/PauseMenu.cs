@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour
     void Start()
     {
         Cursor.visible = false;     //hides cursor when the game starts
+        Time.timeScale = 1f;
     }
 
     void Update()
@@ -36,6 +37,7 @@ public class PauseMenu : MonoBehaviour
     public void quit()
     {
         SceneManager.LoadScene(sceneName);
+
     }
 
     //function to resume game
