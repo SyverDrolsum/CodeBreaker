@@ -11,6 +11,7 @@ public class LoadScenes : MonoBehaviour
 
     public void NewGame()
     {
+        PlayerPrefs.DeleteAll();
         SceneManager.LoadScene(levelMapScene);
     }
 
