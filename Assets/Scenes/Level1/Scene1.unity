@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 26733625}
   m_Layer: 6
   m_Name: Spikes (3)
-  m_TagString: Virus
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -607,7 +607,7 @@ GameObject:
   - component: {fileID: 156189964}
   m_Layer: 6
   m_Name: Spikes (5)
-  m_TagString: Virus
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1533,7 +1533,7 @@ GameObject:
   - component: {fileID: 735031292}
   m_Layer: 6
   m_Name: Spikes
-  m_TagString: Virus
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3460,7 +3460,7 @@ GameObject:
   - component: {fileID: 1025975230}
   m_Layer: 6
   m_Name: Spikes (2)
-  m_TagString: Virus
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3816,7 +3816,7 @@ GameObject:
   - component: {fileID: 1142577082}
   m_Layer: 6
   m_Name: Spikes (4)
-  m_TagString: Virus
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4768,7 +4768,7 @@ GameObject:
   - component: {fileID: 1765526923}
   m_Layer: 6
   m_Name: Spikes (1)
-  m_TagString: Virus
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
